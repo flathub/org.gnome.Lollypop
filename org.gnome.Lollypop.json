@@ -1,13 +1,9 @@
 {
   "app-id": "org.gnome.Lollypop",
-  "version": "0.9.234",
   "runtime": "org.gnome.Platform",
   "runtime-version": "3.24",
   "sdk": "org.gnome.Sdk",
   "command": "lollypop",
-  "copy-icon": true,
-  "separate-locales": false,
-  "desktop-file-name-prefix": "",
   "finish-args": [
     "--share=ipc",
     "--share=network",
@@ -18,73 +14,72 @@
     "--filesystem=xdg-run/dconf",
     "--filesystem=~/.config/dconf:rw",
     "--talk-name=org.freedesktop.Notifications",
-    "--talk-name=org.freedesktop.DBus",
     "--talk-name=org.freedesktop.secrets",
     "--talk-name=org.gnome.OnlineAccounts",
     "--talk-name=org.gnome.Lollypop.Portal",
-    "--socket=session-bus",
-    "--socket=system-bus",
-    "--own-name=org.gnome.Lollypop",
     "--talk-name=ca.desrt.dconf",
     "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
   ],
   "modules": [
     {
+      "name": "gst-libav",
+      "config-opts": [ "--disable-gtk-doc"],
+      "cleanup": [ "*.la", "/share/gtk-doc" ],
+      "sources": [{
+        "type": "archive",
+        "url": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.10.4.tar.xz",
+        "sha256": "6ca0feca75e3d48315e07f20ec37cf6260ed1e9dde58df355febd5016246268b"
+      }]
+    },
+    {
+       "name": "six",
+       "buildsystem": "simple",
+       "build-commands": [
+       "pip3 install --prefix=/app six-1.10.0-py2.py3-none-any.whl"
+       ],
+       "sources": [{
+          "type": "file",
+          "url": "https://pypi.python.org/packages/c8/0a/b6723e1bc4c516cb687841499455a8505b44607ab535be01091c0f24f079/six-1.10.0-py2.py3-none-any.whl#md5=3ab558cf5d4f7a72611d59a81a315dc8",
+          "sha256": "0ff78c403d9bccf5a425a6d31a12aa6b47f1c21ca4dc2573a7e2f32a97335eb1"
+        }]
+    },
+    {
       "name": "pylast",
       "buildsystem": "simple",
       "build-commands": [
-        "python3 setup.py install --prefix=/app --root=/"
+        "pip3 install --prefix=/app pylast-1.8.0-py3-none-any.whl"
       ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://github.com/pylast/pylast/archive/1.8.0.tar.gz",
-          "sha256": "a84c1c3acd62a072205e545ea2550ffbb7b702e073793bfcfbc9f86a14149e7e"
-        }
-      ],
-      "modules": [
-        {
-          "name": "six",
-          "buildsystem": "simple",
-          "build-commands": [
-            "python3 setup.py install --prefix=/app --root=/"
-          ],
-          "sources": [
-            {
-              "type": "archive",
-              "url": "https://pypi.python.org/packages/b3/b2/238e2590826bfdd113244a40d9d3eb26918bd798fc187e2360a8367068db/six-1.10.0.tar.gz#md5=34eed507548117b2ab523ab14b2f8b55",
-              "sha256": "105f8d68616f8248e24bf0e9372ef04d3cc10104f1980f54d57b2ce73a5ad56a"
-            }
-          ]
-        }
-      ]
-    },
+      "sources": [{
+        "type": "file",
+        "url": "https://dl.tingping.se/mirror/pylast-1.8.0-py3-none-any.whl",
+        "sha256": "98ffacaba10ba8e123c750993a24396d058d3e21e4d4f1e93f0dd085956457d3"
+      }]
+      },
     {
       "name": "python-requests",
       "buildsystem": "simple",
-      "build-commands": [
-        "python3 setup.py install --prefix=/app --root=/"
+       "build-commands": [
+       "pip3 install --prefix=/app requests-2.14.2-py2.py3-none-any.whl"
       ],
       "sources": [
         {
-          "type": "archive",
-          "url": "https://pypi.python.org/packages/16/09/37b69de7c924d318e51ece1c4ceb679bf93be9d05973bb30c35babd596e2/requests-2.13.0.tar.gz",
-          "sha256": "5722cd09762faa01276230270ff16af7acf7c5c45d623868d9ba116f15791ce8"
+          "type": "file",
+          "url": "https://pypi.python.org/packages/e4/b0/286e8a936158e5cc5791d5fa3bc4b1d5a7e1ff4e5b3f3766b63d8e97708a/requests-2.14.2-py2.py3-none-any.whl#md5=a1b2f02e7ba45dff7c76f621cde042c4",
+          "sha256": "3b39cde35be51762885631cf586f4dc2284951b44d479a4454020758d767cc2f"
         }
       ]
     },
     {
       "name": "python-beautifulsoup4",
       "buildsystem": "simple",
-      "build-commands": [
-        "python3 setup.py install --prefix=/app --root=/",
-        "2to3 -w /app/lib/python3*/site-packages/bs4"
+       "build-commands": [
+       "pip3 install --prefix=/app beautifulsoup4-4.6.0-py3-none-any.whl"
       ],
       "sources": [
         {
-          "type": "archive",
-          "url": "https://www.crummy.com/software/BeautifulSoup/bs4/download/4.5/beautifulsoup4-4.5.3.tar.gz",
-          "sha256": "b21ca09366fa596043578fd4188b052b46634d22059e68dd0077d9ee77e08a3e"
+          "type": "file",
+          "url": "https://pypi.python.org/packages/9e/d4/10f46e5cfac773e22707237bfcd51bbffeaf0a576b0a847ec7ab15bd7ace/beautifulsoup4-4.6.0-py3-none-any.whl#md5=f6becf1889e5697734cc98798d2f0111",
+          "sha256": "11a9a27b7d3bddc6d86f59fb76afb70e921a25ac2d6cc55b40d072bd68435a76"
         }
       ]
     },
@@ -125,25 +120,14 @@
     {
       "name": "youtube-dl",
       "buildsystem": "simple",
-      "build-commands": [
-        "python3 setup.py install --prefix=/app --root=/",
-        "2to3 -w /app/lib/python3*/site-packages/bs4"
+       "build-commands": [
+       "pip3 install --prefix=/app youtube_dl-2017.5.14-py2.py3-none-any.whl"
       ],
       "sources": [
         {
-          "type": "archive",
-          "url": "https://yt-dl.org/downloads/2017.05.09/youtube-dl-2017.05.09.tar.gz",
-          "sha256": "b9af1b8f5b8b245fe46348e7743cf01d323f927e32bd7a98dfdfc83b2866df15"
-        }
-      ]
-    },
-    {
-      "name": "gst-libav",
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.8.3.tar.xz",
-          "sha256": "9006a05990089f7155ee0e848042f6bb24e52ab1d0a59ff8d1b5d7e33001a495"
+          "type": "file",
+          "url": "https://pypi.python.org/packages/77/45/3a41cd2c09c6f3284c27c84edc3c966cac68b287e5e97b5e2082786a0c86/youtube_dl-2017.5.14-py2.py3-none-any.whl#md5=4ea8b4d0b6cbd37668c20d0058ada1ac",
+          "sha256": "780a95639ba15debcbec9562e2971f352eb0252217a9f25e072bb570fddbad5b"
         }
       ]
     },
@@ -156,8 +140,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/gnumdk/lollypop/releases/download/0.9.233/lollypop-0.9.233.tar.xz",
-          "sha256": "98e3c2d782673e690c0015ea5e3d64971761d4d8199ce5659382232324403445"
+          "url": "https://github.com/gnumdk/lollypop/releases/download/0.9.234/lollypop-0.9.234.tar.xz",
+          "sha256": "0750f238471220af7e9d85eefbbbf62129774d011d22e1e06e2c7ad268e3c690"
         }
       ]
     }
