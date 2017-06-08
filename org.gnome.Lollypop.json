@@ -141,8 +141,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/gnumdk/lollypop/releases/download/0.9.238/lollypop-0.9.238.tar.xz",
-          "sha256": "105c08d178fcf83b661b98eabad8303bb0bc0a153bd8a1ae2252a6c8fb58074a"
+          "url": "https://github.com/gnumdk/lollypop/releases/download/0.9.240/lollypop-0.9.240.tar.xz",
+          "sha256": "78cbd57c41f5d97f8c9286f7e01c0c3d0fde17a3dc01a4a5bae1bf665e653e58"
         }
       ]
     }
