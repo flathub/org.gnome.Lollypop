@@ -134,15 +134,15 @@
     },
     {
       "name": "lollypop",
+      "buildsystem": "meson",
       "make-install-args": [
         "prefix=/app"
       ],
-      "no-autogen": true,
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/gnumdk/lollypop/releases/download/0.9.241/lollypop-0.9.241.tar.xz",
-          "sha256": "765a0c222b36d435873316ce3fdf8352b403dc0c507134ebb2a5e05d88bf69df"
+          "url": "https://github.com/gnumdk/lollypop/releases/download/0.9.243/lollypop-0.9.243.tar.xz",
+          "sha256": "c7e47a9153226d60d68eb9cbd2304211f9f4ebd5a80f85bb8fda49138adeb0c9"
         }
       ]
     }
