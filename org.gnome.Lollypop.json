@@ -135,9 +135,7 @@
     {
       "name": "lollypop",
       "buildsystem": "meson",
-      "make-install-args": [
-        "prefix=/app"
-      ],
+      "builddir": true,
       "sources": [
         {
           "type": "archive",
