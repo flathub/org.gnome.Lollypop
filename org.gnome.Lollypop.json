@@ -34,6 +34,16 @@
       }]
     },
     {
+      "name": "gst-plugins-ugly",
+      "config-opts": [ "--disable-gtk-doc"],
+      "cleanup": [ "*.la", "/share/gtk-doc" ],
+      "sources": [{
+        "type": "archive",
+        "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.10.5.tar.xz",
+        "sha256": "d6edc046350809c967f5b058c5c2e534d99d1d69fe1b26acd849e87781a7d7fc"
+      }]
+    },
+    {
        "name": "six",
        "buildsystem": "simple",
        "build-commands": [
