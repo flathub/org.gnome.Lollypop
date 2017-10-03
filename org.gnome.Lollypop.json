@@ -1,7 +1,7 @@
 {
   "app-id": "org.gnome.Lollypop",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.24",
+  "runtime-version": "3.26",
   "sdk": "org.gnome.Sdk",
   "command": "lollypop",
   "finish-args": [
@@ -25,12 +25,14 @@
   "modules": [
     {
       "name": "gst-libav",
-      "config-opts": [ "--disable-gtk-doc"],
+      "config-opts": [
+        "--disable-gtk-doc"
+      ],
       "cleanup": [ "*.la", "/share/gtk-doc" ],
       "sources": [{
         "type": "archive",
-        "url": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.10.4.tar.xz",
-        "sha256": "6ca0feca75e3d48315e07f20ec37cf6260ed1e9dde58df355febd5016246268b"
+        "url": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.12.3.tar.xz",
+        "sha256": "015ef8cab6f7fb87c8fb42642486423eff3b6e6a6bccdcd6a189f436a3619650"
       }]
     },
     {
@@ -39,8 +41,8 @@
       "cleanup": [ "*.la", "/share/gtk-doc" ],
       "sources": [{
         "type": "archive",
-        "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.10.5.tar.xz",
-        "sha256": "d6edc046350809c967f5b058c5c2e534d99d1d69fe1b26acd849e87781a7d7fc"
+        "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.12.3.tar.xz",
+        "sha256": "e88ca584c94ea78eeecbf3af00ef7f134b66bdee7408aa4aa6c547235e060052"
       }]
     },
     {
@@ -130,28 +132,14 @@
       ]
     },
     {
-      "name": "youtube-dl",
-      "buildsystem": "simple",
-       "build-commands": [
-       "pip3 install --prefix=/app youtube_dl-2017.5.14-py2.py3-none-any.whl"
-      ],
-      "sources": [
-        {
-          "type": "file",
-          "url": "https://pypi.python.org/packages/77/45/3a41cd2c09c6f3284c27c84edc3c966cac68b287e5e97b5e2082786a0c86/youtube_dl-2017.5.14-py2.py3-none-any.whl#md5=4ea8b4d0b6cbd37668c20d0058ada1ac",
-          "sha256": "780a95639ba15debcbec9562e2971f352eb0252217a9f25e072bb570fddbad5b"
-        }
-      ]
-    },
-    {
       "name": "lollypop",
       "buildsystem": "meson",
       "builddir": true,
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/gnumdk/lollypop/releases/download/0.9.244/lollypop-0.9.244.tar.xz",
-          "sha256": "7ca012a6a6b4dc4d517d79e888b1b17a9e24a55faea925d8a6957c7a33af3679"
+          "url": "https://github.com/gnumdk/lollypop/releases/download/0.9.300/lollypop-0.9.300.tar.xz",
+          "sha256": "ad68323ce37dbfac45eb789823112a5c6c14a2ce5cfe7f85bcd1f673aa0df75c"
         }
       ]
     }
