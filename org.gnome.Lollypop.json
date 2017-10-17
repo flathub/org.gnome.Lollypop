@@ -130,9 +130,6 @@
       "name": "totem-pl-parser",
       "buildsystem": "meson",
       "builddir": true,
-      "config-opts": [
-        "--disable-gtk-doc"
-      ],
       "cleanup": [ "*.la", "/share/gtk-doc" ],
       "sources": [
         {
