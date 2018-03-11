@@ -32,8 +32,8 @@
       "cleanup": [ "*.la", "/share/gtk-doc" ],
       "sources": [{
         "type": "archive",
-        "url": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.12.3.tar.xz",
-        "sha256": "015ef8cab6f7fb87c8fb42642486423eff3b6e6a6bccdcd6a189f436a3619650"
+        "url": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.12.4.tar.xz",
+        "sha256": "2a56aa5d2d8cd912f2bce17f174713d2c417ca298f1f9c28ee66d4aa1e1d9e62"
       }]
     },
     {
@@ -42,8 +42,8 @@
       "cleanup": [ "*.la", "/share/gtk-doc" ],
       "sources": [{
         "type": "archive",
-        "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.12.3.tar.xz",
-        "sha256": "e88ca584c94ea78eeecbf3af00ef7f134b66bdee7408aa4aa6c547235e060052"
+        "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.12.4.tar.xz",
+        "sha256": "1c165b8d888ed350acd8e6ac9f6fe06508e6fcc0a3afc6ccc9fbeb30df9be522"
       }]
     },
     {
@@ -61,26 +61,82 @@
     {
       "name": "pylast",
       "buildsystem": "simple",
-      "build-commands": [
-        "python3 setup.py install --prefix=/app --root=/"
-      ],
+       "build-commands": [
+       "pip3 install --prefix=/app pylast-2.1.0-py2.py3-none-any.whl"
+       ],
       "sources": [{
-        "type": "archive",
-        "url": "https://pypi.python.org/packages/9a/df/e343df0bee89aba443ac70bf6debc62ca043c936cfec9617f15b5c89071e/pylast-1.9.0.tar.gz#md5=709cd6e12bf8092bdc8e8b0bf1d7e82a",
-        "sha256": "ae1c4105cbe704d9ac10ba57ac4c26bc576cc33978f1b578101b20c6a2360ca4"
+        "type": "file",
+        "url": "https://pypi.python.org/packages/42/51/3be0c23ec77cd2014f14dec6479fac911a57dae478ffc0b700b3eb6918b0/pylast-2.1.0-py2.py3-none-any.whl#md5=6c246bc369b9723ed00549a61f2a19eb",
+        "sha256": "6ad1042e0c8f335fd077832c20ca890f11143264a33d8c84e49bd922ba3d0459"
       }]
       },
     {
-      "name": "python-requests",
+      "name": "python-idna",
       "buildsystem": "simple",
        "build-commands": [
-       "pip3 install --prefix=/app requests-2.14.2-py2.py3-none-any.whl"
+       "pip3 install --prefix=/app idna-2.6-py2.py3-none-any.whl"
       ],
       "sources": [
         {
           "type": "file",
-          "url": "https://pypi.python.org/packages/e4/b0/286e8a936158e5cc5791d5fa3bc4b1d5a7e1ff4e5b3f3766b63d8e97708a/requests-2.14.2-py2.py3-none-any.whl#md5=a1b2f02e7ba45dff7c76f621cde042c4",
-          "sha256": "3b39cde35be51762885631cf586f4dc2284951b44d479a4454020758d767cc2f"
+          "url": "https://pypi.python.org/packages/27/cc/6dd9a3869f15c2edfab863b992838277279ce92663d334df9ecf5106f5c6/idna-2.6-py2.py3-none-any.whl#md5=875c4a7b32b4897537d5ea9247b5c79e",
+          "sha256": "8c7309c718f94b3a625cb648ace320157ad16ff131ae0af362c9f21b80ef6ec4"
+        }
+      ]
+    },
+    {
+      "name": "python-urllib3",
+      "buildsystem": "simple",
+       "build-commands": [
+       "pip3 install --prefix=/app urllib3-1.22-py2.py3-none-any.whl"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "url": "https://pypi.python.org/packages/63/cb/6965947c13a94236f6d4b8223e21beb4d576dc72e8130bd7880f600839b8/urllib3-1.22-py2.py3-none-any.whl#md5=1c11e1c80371cc4e89911071010a98d1",
+          "sha256": "06330f386d6e4b195fbfc736b297f58c5a892e4440e54d294d7004e3a9bbea1b"
+        }
+      ]
+    },
+    {
+      "name": "python-certifi",
+      "buildsystem": "simple",
+       "build-commands": [
+       "pip3 install --prefix=/app certifi-2018.1.18-py2.py3-none-any.whl"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "url": "https://pypi.python.org/packages/fa/53/0a5562e2b96749e99a3d55d8c7df91c9e4d8c39a9da1f1a49ac9e4f4b39f/certifi-2018.1.18-py2.py3-none-any.whl#md5=38f1c6a4a5d6b5e8bcb614354d6584c9",
+          "sha256": "14131608ad2fd56836d33a71ee60fa1c82bc9d2c8d98b7bdbc631fe1b3cd1296"
+        }
+      ]
+    },
+    {
+      "name": "python-chardet",
+      "buildsystem": "simple",
+       "build-commands": [
+       "pip3 install --prefix=/app chardet-3.0.4-py2.py3-none-any.whl"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "url": "https://pypi.python.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl#md5=0004b00caff7bb543a1d0d0bd0185a03",
+          "sha256": "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"
+        }
+      ]
+    },
+    {
+      "name": "python-requests",
+      "buildsystem": "simple",
+       "build-commands": [
+       "pip3 install --prefix=/app requests-2.18.4-py2.py3-none-any.whl"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "url": "https://pypi.python.org/packages/49/df/50aa1999ab9bde74656c2919d9c0c085fd2b3775fd3eca826012bef76d8c/requests-2.18.4-py2.py3-none-any.whl#md5=eb9be71cc41fd73a51a7c9cd1adde5de",
+          "sha256": "6a1b267aa90cac58ac3a765d067950e7dbbf75b1da07e895d1f594193a40a38b"
         }
       ]
     },
@@ -109,6 +165,20 @@
           "type": "archive",
           "url": "https://pypi.python.org/packages/source/w/wikipedia/wikipedia-1.4.0.tar.gz",
           "sha256": "db0fad1829fdd441b1852306e9856398204dc0786d2996dd2e0c8bb8e26133b2"
+        }
+      ]
+    },
+    {
+      "name": "python-socks",
+      "buildsystem": "simple",
+      "build-commands": [
+        "python3 setup.py install --prefix=/app --root=/"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://pypi.python.org/packages/53/12/6bf1d764f128636cef7408e8156b7235b150ea31650d0260969215bb8e7d/PySocks-1.6.8.tar.gz#md5=441c4e3bf5b042f7e70613cd871df26c",
+          "sha256": "3fe52c55890a248676fd69dc9e3c4e811718b777834bcaab7a8125cf9deac672"
         }
       ]
     },
@@ -146,8 +216,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://gitlab.gnome.org/gnumdk/lollypop/uploads/b769805b7063ef9807e4e832e7e87ad2/lollypop-0.9.306.tar.xz",
-          "sha256": "56c19d5fca46ce7062ba6ff15e2f1e1006817d8a71f59204dcdcaf918ed98930"
+          "url": "https://gitlab.gnome.org/gnumdk/lollypop/uploads/2dcacda4751069e7cdb4219f156ae0ea/lollypop-0.9.400.1.tar.xz",
+          "sha256": "493dd01e95a7179a05e496025d8ae1fa934c1d5dd6ed6c7d4558b204e9d9372a"
         }
       ]
     }
