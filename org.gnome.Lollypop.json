@@ -89,7 +89,7 @@
       ],
       "sources": [
         {
-          "type": "file",
+          "type": "archive",
           "url": "https://files.pythonhosted.org/packages/source/P/Pillow/Pillow-5.1.0.tar.gz",
           "sha256": "cee9bc75bff455d317b6947081df0824a8f118de2786dc3d74a3503fd631f4ef"
         }
