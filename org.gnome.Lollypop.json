@@ -85,13 +85,13 @@
       "name": "python-pillow",
       "buildsystem": "simple",
        "build-commands": [
-       "pip3 install --prefix=/app idna-2.6-py2.py3-none-any.whl"
+       "python3 setup.py install --prefix=/app --root=/"
       ],
       "sources": [
         {
           "type": "file",
-          "url": "https://files.pythonhosted.org/packages/07/52/8e27b9c54cb70d379244771a58483928b3a02db3c657d466ed84eb18f22b/Pillow-5.1.0-cp35-cp35m-manylinux1_x86_64.whl",
-          "sha256": "ea0091cd4100519cedfeea2c659f52291f535ac6725e2368bcf59e874f270efa"
+          "url": "https://files.pythonhosted.org/packages/source/P/Pillow/Pillow-5.1.0.tar.gz",
+          "sha256": "cee9bc75bff455d317b6947081df0824a8f118de2786dc3d74a3503fd631f4ef"
         }
       ]
     },
