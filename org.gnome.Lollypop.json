@@ -82,6 +82,20 @@
       }]
       },
     {
+      "name": "python-pillow",
+      "buildsystem": "simple",
+       "build-commands": [
+       "pip3 install --prefix=/app idna-2.6-py2.py3-none-any.whl"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "url": "https://files.pythonhosted.org/packages/07/52/8e27b9c54cb70d379244771a58483928b3a02db3c657d466ed84eb18f22b/Pillow-5.1.0-cp35-cp35m-manylinux1_x86_64.whl",
+          "sha256": "ea0091cd4100519cedfeea2c659f52291f535ac6725e2368bcf59e874f270efa"
+        }
+      ]
+    },
+    {
       "name": "python-idna",
       "buildsystem": "simple",
        "build-commands": [
@@ -227,8 +241,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://gitlab.gnome.org/gnumdk/lollypop/uploads/27a8e9c3d773e66e05a6ed4f8acb6bd0/lollypop-0.9.507.tar.xz",
-          "sha256": "b0fb68069eec67a7bea07d341baf8660903561495e4839316e6d16b92e5e99ab"
+          "url": "https://gitlab.gnome.org/gnumdk/lollypop/uploads/14d754166eb532a9efe5788f1176a4c1/lollypop-0.9.508.tar.xz",
+          "sha256": "ac9305c186ace329249303ff7eabea76d72212d4e1fbf73391a68cfd691dea3a"
         }
       ]
     }
