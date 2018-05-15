@@ -241,8 +241,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://gitlab.gnome.org/gnumdk/lollypop/uploads/0eaba3fc7a43a9746bac2a3f23b86a00/lollypop-0.9.510.tar.xz",
-          "sha256": "bd3637112e142e5e0e101a6379eed52d309cf70e91bec71ef722d07496df2d0b"
+          "url": "https://gitlab.gnome.org/gnumdk/lollypop/uploads/7c79046c04caf3d20a907223244700a1/lollypop-0.9.511.tar.xz",
+          "sha256": "de8e4154b4983c20014ceda34c56ef7ca8522af6c37b64866609f2de952f8c98"
         }
       ]
     }
