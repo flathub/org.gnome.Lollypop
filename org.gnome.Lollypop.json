@@ -43,8 +43,8 @@
       "cleanup": [ "*.la", "/share/gtk-doc" ],
       "sources": [{
         "type": "archive",
-        "url": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.14.1.tar.xz",
-        "sha256": "eff80a02d2f2fb9f34b67e9a26e9954d3218c7aa18e863f2a47805fa7066029d"
+        "url": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.14.0.tar.xz",
+        "sha256": "fb134b4d3e054746ef8b922ff157b0c7903d1fdd910708a45add66954da7ef89"
       }]
     },
     {
@@ -53,8 +53,8 @@
       "cleanup": [ "*.la", "/share/gtk-doc" ],
       "sources": [{
         "type": "archive",
-        "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.14.1.tar.xz",
-        "sha256": "cff2430bb13f54ef81409a0b3d65ce409a376d4a7bab57a14a97d602539fe1d3"
+        "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.14.0.tar.xz",
+        "sha256": "3fb9ea5fc8a2de4b3eaec4128d71c6a2d81dd19befe1cd87cb833b98bcb542d1"
       }]
     },
     {
