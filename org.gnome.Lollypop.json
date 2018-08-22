@@ -14,7 +14,8 @@
     "--filesystem=host",
     "--filesystem=xdg-run/dconf",
     "--filesystem=~/.config/dconf:rw",
-    "--talk-name=org.gtk.vfs", "--talk-name=org.gtk.vfs.*",
+    "--talk-name=org.gtk.vfs",
+    "--talk-name=org.gtk.vfs.*",
     "--talk-name=org.freedesktop.Notifications",
     "--talk-name=org.freedesktop.secrets",
     "--talk-name=org.gnome.OnlineAccounts",
@@ -26,66 +27,106 @@
   "modules": [
     {
       "name": "lame",
-      "config-opts": [
+      "config-opts": [],
+      "cleanup": [
+        "*.la",
+        "/share/gtk-doc"
       ],
-      "cleanup": [ "*.la", "/share/gtk-doc" ],
-      "sources": [{
-        "type": "archive",
-        "url": "http://downloads.sourceforge.net/lame/lame-3.100.tar.gz",
-        "sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e"
-      }]
+      "sources": [
+        {
+          "type": "archive",
+          "url": "http://downloads.sourceforge.net/lame/lame-3.100.tar.gz",
+          "sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e"
+        }
+      ]
     },
     {
       "name": "gst-libav",
       "config-opts": [
         "--disable-gtk-doc"
       ],
-      "cleanup": [ "*.la", "/share/gtk-doc" ],
-      "sources": [{
-        "type": "archive",
-        "url": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.14.0.tar.xz",
-        "sha256": "fb134b4d3e054746ef8b922ff157b0c7903d1fdd910708a45add66954da7ef89"
-      }]
+      "cleanup": [
+        "*.la",
+        "/share/gtk-doc"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.14.0.tar.xz",
+          "sha256": "fb134b4d3e054746ef8b922ff157b0c7903d1fdd910708a45add66954da7ef89"
+        }
+      ]
     },
     {
       "name": "gst-plugins-ugly",
-      "config-opts": [ "--disable-gtk-doc"],
-      "cleanup": [ "*.la", "/share/gtk-doc" ],
-      "sources": [{
-        "type": "archive",
-        "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.14.0.tar.xz",
-        "sha256": "3fb9ea5fc8a2de4b3eaec4128d71c6a2d81dd19befe1cd87cb833b98bcb542d1"
-      }]
+      "config-opts": [
+        "--disable-gtk-doc"
+      ],
+      "cleanup": [
+        "*.la",
+        "/share/gtk-doc"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.14.0.tar.xz",
+          "sha256": "3fb9ea5fc8a2de4b3eaec4128d71c6a2d81dd19befe1cd87cb833b98bcb542d1"
+        }
+      ]
     },
     {
-       "name": "six",
-       "buildsystem": "simple",
-       "build-commands": [
-       "pip3 install --prefix=/app six-1.10.0-py2.py3-none-any.whl"
-       ],
-       "sources": [{
+      "name": "six",
+      "buildsystem": "simple",
+      "build-commands": [
+        "pip3 install --prefix=/app six-1.10.0-py2.py3-none-any.whl"
+      ],
+      "sources": [
+        {
           "type": "file",
           "url": "https://pypi.python.org/packages/c8/0a/b6723e1bc4c516cb687841499455a8505b44607ab535be01091c0f24f079/six-1.10.0-py2.py3-none-any.whl#md5=3ab558cf5d4f7a72611d59a81a315dc8",
           "sha256": "0ff78c403d9bccf5a425a6d31a12aa6b47f1c21ca4dc2573a7e2f32a97335eb1"
-        }]
+        }
+      ]
     },
     {
       "name": "pylast",
       "buildsystem": "simple",
-       "build-commands": [
-       "pip3 install --prefix=/app pylast-2.1.0-py2.py3-none-any.whl"
-       ],
-      "sources": [{
-        "type": "file",
-        "url": "https://pypi.python.org/packages/42/51/3be0c23ec77cd2014f14dec6479fac911a57dae478ffc0b700b3eb6918b0/pylast-2.1.0-py2.py3-none-any.whl#md5=6c246bc369b9723ed00549a61f2a19eb",
-        "sha256": "6ad1042e0c8f335fd077832c20ca890f11143264a33d8c84e49bd922ba3d0459"
-      }]
-      },
+      "build-commands": [
+        "pip3 install --prefix=/app pylast-2.1.0-py2.py3-none-any.whl"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "url": "https://pypi.python.org/packages/42/51/3be0c23ec77cd2014f14dec6479fac911a57dae478ffc0b700b3eb6918b0/pylast-2.1.0-py2.py3-none-any.whl#md5=6c246bc369b9723ed00549a61f2a19eb",
+          "sha256": "6ad1042e0c8f335fd077832c20ca890f11143264a33d8c84e49bd922ba3d0459"
+        }
+      ]
+    },
     {
       "name": "python-pillow",
       "buildsystem": "simple",
-       "build-commands": [
-       "python3 setup.py install --prefix=/app --root=/"
+      "build-commands": [
+        "python3 setup.py install --prefix=/app --root=/"
+      ],
+      "build-options": {
+        "arch": {
+          "i386": {
+            "env": {
+              "MAX_CONCURRENCY": "1"
+            }
+          },
+          "arm": {
+            "env": {
+              "MAX_CONCURRENCY": "1"
+            }
+          }
+        }
+      },
+      "ensure-writable": [
+        "/lib/python*/site-packages/easy-install.pth",
+        "/lib/python*/site-packages/setuptools.pth",
+        "/app/lib/python*/site-packages/easy-install.pth",
+        "/app/lib/python*/site-packages/setuptools.pth"
       ],
       "sources": [
         {
@@ -98,8 +139,8 @@
     {
       "name": "python-idna",
       "buildsystem": "simple",
-       "build-commands": [
-       "pip3 install --prefix=/app idna-2.6-py2.py3-none-any.whl"
+      "build-commands": [
+        "pip3 install --prefix=/app idna-2.6-py2.py3-none-any.whl"
       ],
       "sources": [
         {
@@ -112,8 +153,8 @@
     {
       "name": "python-urllib3",
       "buildsystem": "simple",
-       "build-commands": [
-       "pip3 install --prefix=/app urllib3-1.22-py2.py3-none-any.whl"
+      "build-commands": [
+        "pip3 install --prefix=/app urllib3-1.22-py2.py3-none-any.whl"
       ],
       "sources": [
         {
@@ -126,8 +167,8 @@
     {
       "name": "python-certifi",
       "buildsystem": "simple",
-       "build-commands": [
-       "pip3 install --prefix=/app certifi-2018.1.18-py2.py3-none-any.whl"
+      "build-commands": [
+        "pip3 install --prefix=/app certifi-2018.1.18-py2.py3-none-any.whl"
       ],
       "sources": [
         {
@@ -140,8 +181,8 @@
     {
       "name": "python-chardet",
       "buildsystem": "simple",
-       "build-commands": [
-       "pip3 install --prefix=/app chardet-3.0.4-py2.py3-none-any.whl"
+      "build-commands": [
+        "pip3 install --prefix=/app chardet-3.0.4-py2.py3-none-any.whl"
       ],
       "sources": [
         {
@@ -154,8 +195,8 @@
     {
       "name": "python-requests",
       "buildsystem": "simple",
-       "build-commands": [
-       "pip3 install --prefix=/app requests-2.18.4-py2.py3-none-any.whl"
+      "build-commands": [
+        "pip3 install --prefix=/app requests-2.18.4-py2.py3-none-any.whl"
       ],
       "sources": [
         {
@@ -168,8 +209,8 @@
     {
       "name": "python-beautifulsoup4",
       "buildsystem": "simple",
-       "build-commands": [
-       "pip3 install --prefix=/app beautifulsoup4-4.6.0-py3-none-any.whl"
+      "build-commands": [
+        "pip3 install --prefix=/app beautifulsoup4-4.6.0-py3-none-any.whl"
       ],
       "sources": [
         {
@@ -212,7 +253,10 @@
       "config-opts": [
         "--disable-gtk-doc"
       ],
-      "cleanup": [ "*.la", "/share/gtk-doc" ],
+      "cleanup": [
+        "*.la",
+        "/share/gtk-doc"
+      ],
       "sources": [
         {
           "type": "git",
@@ -225,7 +269,10 @@
       "name": "totem-pl-parser",
       "buildsystem": "meson",
       "builddir": true,
-      "cleanup": [ "*.la", "/share/gtk-doc" ],
+      "cleanup": [
+        "*.la",
+        "/share/gtk-doc"
+      ],
       "sources": [
         {
           "type": "git",
