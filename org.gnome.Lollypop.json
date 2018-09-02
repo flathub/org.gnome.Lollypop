@@ -265,21 +265,20 @@
         }
       ]
     },
-            {
-            "name": "totem-pl-parser",
-            "buildsystem": "meson",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.1.tar.xz",
-                    "sha256": "6ae2c4b8acaf052af21b8db256b6314385de031ba721a2dbdb361e90d4b4b74c"
-                }
-            ],
-            "cleanup": [ 
-              "/include",
-              "*.la",
-              "/share/gtk-doc"
-            ]
+    {
+      "name": "totem-pl-parser",
+      "buildsystem": "meson",
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.1.tar.xz",
+          "sha256": "6ae2c4b8acaf052af21b8db256b6314385de031ba721a2dbdb361e90d4b4b74c"
+        }
+      ],
+      "cleanup": [ 
+        "/include",
+        "/share/gtk-doc"
+      ]
     },
     {
       "name": "lollypop",
