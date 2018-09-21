@@ -18,8 +18,8 @@
     "--talk-name=org.gtk.vfs.*",
     "--talk-name=org.freedesktop.Notifications",
     "--talk-name=org.freedesktop.secrets",
+    "--talk-name=org.freedesktop.Flatpak",
     "--talk-name=org.gnome.OnlineAccounts",
-    "--talk-name=org.gnome.Lollypop.Portal",
     "--talk-name=ca.desrt.dconf",
     "--own-name=org.mpris.MediaPlayer2.Lollypop",
     "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
@@ -283,12 +283,12 @@
     {
       "name": "lollypop",
       "buildsystem": "meson",
-      "builddir": true,
       "sources": [
         {
-          "type": "archive",
-          "url": "https://gitlab.gnome.org/World/lollypop/uploads/e4df2ed75c5ed71d64afcc668e579b2a/lollypop-0.9.521.tar.xz",
-          "sha256": "bded9c24c6d02496b40c180697f4578c78823f0ccbe058374adc474d04c4da4e"
+          "type": "git",
+          "url": "https://gitlab.gnome.org/World/lollypop.git",
+          "tag": "0.9.600",
+          "commit": "6aed7cce93910f4f0372f6c1e5dbc2fe2425a756"
         }
       ]
     }
