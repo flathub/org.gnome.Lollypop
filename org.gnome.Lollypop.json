@@ -20,7 +20,6 @@
     "--talk-name=org.freedesktop.secrets",
     "--talk-name=org.freedesktop.Flatpak",
     "--talk-name=org.gnome.OnlineAccounts",
-    "--talk-name=org.gnome.Lollypop.Portal",
     "--talk-name=ca.desrt.dconf",
     "--own-name=org.mpris.MediaPlayer2.Lollypop",
     "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
