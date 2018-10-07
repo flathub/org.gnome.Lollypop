@@ -1,7 +1,7 @@
 {
   "app-id": "org.gnome.Lollypop",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.28",
+  "runtime-version": "3.30",
   "sdk": "org.gnome.Sdk",
   "command": "lollypop",
   "finish-args": [
@@ -25,21 +25,6 @@
     "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
   ],
   "modules": [
-    {
-      "name": "lame",
-      "config-opts": [],
-      "cleanup": [
-        "*.la",
-        "/share/gtk-doc"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "http://downloads.sourceforge.net/lame/lame-3.100.tar.gz",
-          "sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e"
-        }
-      ]
-    },
     {
       "name": "gst-libav",
       "config-opts": [
@@ -78,13 +63,13 @@
       "name": "six",
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --prefix=/app six-1.10.0-py2.py3-none-any.whl"
+        "python3 setup.py install --prefix=/app"
       ],
       "sources": [
         {
-          "type": "file",
-          "url": "https://pypi.python.org/packages/c8/0a/b6723e1bc4c516cb687841499455a8505b44607ab535be01091c0f24f079/six-1.10.0-py2.py3-none-any.whl#md5=3ab558cf5d4f7a72611d59a81a315dc8",
-          "sha256": "0ff78c403d9bccf5a425a6d31a12aa6b47f1c21ca4dc2573a7e2f32a97335eb1"
+          "type": "archive",
+          "url": "https://github.com/benjaminp/six/archive/1.11.0.tar.gz",
+          "sha256": "927dc6fcfccd4e32e1ce161a20bf8cda39d8c9d5f7a845774486907178f69bd4"
         }
       ]
     },
@@ -287,8 +272,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/World/lollypop.git",
-          "tag": "0.9.601",
-          "commit": "9cd6f02263f701b4519dbc6db9b3ff2ff2d383bf"
+          "tag": "0.9.602",
+          "commit": "5b4c8679e8147ebb27a52bea206974de208a5853"
         }
       ]
     }
