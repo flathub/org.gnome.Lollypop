@@ -96,6 +96,7 @@
       "modules": [{
           "name": "openjpeg",
           "buildsystem" : "cmake-ninja",
+          "builddir": true,
           "config-opts": [
             "-DCMAKE_BUILD_TYPE=Release"
           ],
