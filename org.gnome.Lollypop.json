@@ -93,6 +93,21 @@
       "build-commands": [
         "python3 setup.py install --prefix=/app --root=/"
       ],
+      "modules": [{
+          "name": "openjpeg",
+          "buildsystem" : "cmake-ninja",
+          "config-opts": [
+            "-DCMAKE_BUILD_TYPE=Release"
+          ],
+          "cleanup": [
+            "/bin"
+          ],
+          "sources": [{
+            "type": "archive",
+            "url": "https://github.com/uclouvain/openjpeg/releases/download/v2.3.0/openjpeg-v2.3.0-linux-x86_64.tar.gz",
+            "sha256": "32c8f65ad7eb5ca9c87a1d31ceb6158458b19ed02080400149ce29734359005e"
+          }]
+      }],
       "build-options": {
         "arch": {
           "i386": {
@@ -272,8 +287,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/World/lollypop.git",
-          "tag": "0.9.910",
-          "commit": "3df19ff7a6f0ccc7113133da1ea3e02d9337df33"
+          "tag": "0.9.916",
+          "commit": "8a6b84f0bd565d1d764aadc29de3fa61a78df335"
         }
       ]
     }
