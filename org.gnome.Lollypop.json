@@ -1,7 +1,7 @@
 {
   "app-id": "org.gnome.Lollypop",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.30",
+  "runtime-version": "3.32",
   "sdk": "org.gnome.Sdk",
   "command": "lollypop",
   "finish-args": [
@@ -281,14 +281,28 @@
       ]
     },
     {
+        "name": "youtube-dl",
+        "buildsystem": "simple",
+        "build-commands": [
+            "pip3 install --prefix=/app youtube_dl-2019.3.1-py2.py3-none-any.whl"
+        ],
+        "sources": [
+          {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/53/cf/40128d8c672a221e9d3eec375a8b0f3df2b7358bb1fed8dddaa372ad257e/youtube_dl-2019.3.1-py2.py3-none-any.whl",
+            "sha256": "dfddbbe3e4d98e92038fd6adf76ad53e9fbfb5e254025880a40f2b8937dd9b2e"
+          }
+        ]
+    },
+    {
       "name": "lollypop",
       "buildsystem": "meson",
       "sources": [
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/World/lollypop.git",
-          "tag": "0.9.923",
-          "commit": "e104f4356cc91ef45078c888aeae8e76c3dbff42"
+          "tag": "1.0",
+          "commit": "76314fd896f7fb0f15b8934c1e03bec0996cafcf"
         }
       ]
     }
