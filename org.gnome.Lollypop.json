@@ -281,6 +281,20 @@
       ]
     },
     {
+        "name": "youtube-dl",
+        "buildsystem": "simple",
+        "build-commands": [
+            "pip3 install --prefix=/app youtube_dl-2019.3.1-py2.py3-none-any.whl"
+        ],
+        "sources": [
+          {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/53/cf/40128d8c672a221e9d3eec375a8b0f3df2b7358bb1fed8dddaa372ad257e/youtube_dl-2019.3.1-py2.py3-none-any.whl",
+            "sha256": "dfddbbe3e4d98e92038fd6adf76ad53e9fbfb5e254025880a40f2b8937dd9b2e"
+          }
+        ]
+    },
+    {
       "name": "lollypop",
       "buildsystem": "meson",
       "sources": [
