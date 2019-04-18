@@ -24,8 +24,7 @@
     "--own-name=org.mpris.MediaPlayer2.Lollypop",
     "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
   ],
-  "modules": [
-    {
+  "modules": [{
       "name": "gst-libav",
       "config-opts": [
         "--disable-gtk-doc"
@@ -34,13 +33,11 @@
         "*.la",
         "/share/gtk-doc"
       ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.14.0.tar.xz",
-          "sha256": "fb134b4d3e054746ef8b922ff157b0c7903d1fdd910708a45add66954da7ef89"
-        }
-      ]
+      "sources": [{
+        "type": "archive",
+        "url": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.14.4.tar.xz",
+        "sha256": "dfd78591901df7853eab7e56a86c34a1b03635da0d3d56b89aa577f1897865da"
+      }]
     },
     {
       "name": "gst-plugins-ugly",
@@ -51,13 +48,11 @@
         "*.la",
         "/share/gtk-doc"
       ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.14.0.tar.xz",
-          "sha256": "3fb9ea5fc8a2de4b3eaec4128d71c6a2d81dd19befe1cd87cb833b98bcb542d1"
-        }
-      ]
+      "sources": [{
+        "type": "archive",
+        "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.14.4.tar.xz",
+        "sha256": "ac02d837f166c35ff6ce0738e281680d0b90052cfb1f0255dcf6aaca5f0f6d23"
+      }]
     },
     {
       "name": "six",
@@ -65,27 +60,29 @@
       "build-commands": [
         "python3 setup.py install --prefix=/app"
       ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://github.com/benjaminp/six/archive/1.11.0.tar.gz",
-          "sha256": "927dc6fcfccd4e32e1ce161a20bf8cda39d8c9d5f7a845774486907178f69bd4"
-        }
-      ]
+      "sources": [{
+        "type": "archive",
+        "url": "https://github.com/benjaminp/six/archive/1.12.0.tar.gz",
+        "sha256": "0ce7aef70d066b8dda6425c670d00c25579c3daad8108b3e3d41bef26003c852"
+      }]
     },
     {
       "name": "pylast",
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --prefix=/app pylast-2.1.0-py2.py3-none-any.whl"
+        "python3 setup.py install --prefix=/app"
       ],
-      "sources": [
-        {
-          "type": "file",
-          "url": "https://pypi.python.org/packages/42/51/3be0c23ec77cd2014f14dec6479fac911a57dae478ffc0b700b3eb6918b0/pylast-2.1.0-py2.py3-none-any.whl#md5=6c246bc369b9723ed00549a61f2a19eb",
-          "sha256": "6ad1042e0c8f335fd077832c20ca890f11143264a33d8c84e49bd922ba3d0459"
-        }
-      ]
+      "ensure-writable": [
+        "/lib/python*/site-packages/easy-install.pth",
+        "/lib/python*/site-packages/setuptools.pth",
+        "/app/lib/python*/site-packages/easy-install.pth",
+        "/app/lib/python*/site-packages/setuptools.pth"
+      ],
+      "sources": [{
+        "type": "archive",
+        "url": "https://github.com/pylast/pylast/archive/3.1.0.tar.gz",
+        "sha256": "2b3584be8ae97a98814395025c07c9f54fad6f4afd640b37ae6ff8308409e59c"
+      }]
     },
     {
       "name": "python-pillow",
@@ -94,19 +91,19 @@
         "python3 setup.py install --prefix=/app --root=/"
       ],
       "modules": [{
-          "name": "openjpeg",
-          "buildsystem" : "cmake-ninja",
-          "config-opts": [
-            "-DCMAKE_BUILD_TYPE=Release"
-          ],
-          "cleanup": [
-            "/bin"
-          ],
-          "sources": [{
-            "type": "archive",
-            "url": "https://github.com/uclouvain/openjpeg/archive/v2.3.0.tar.gz",
-            "sha256": "3dc787c1bb6023ba846c2a0d9b1f6e179f1cd255172bde9eb75b01f1e6c7d71a"
-          }]
+        "name": "openjpeg",
+        "buildsystem": "cmake-ninja",
+        "config-opts": [
+          "-DCMAKE_BUILD_TYPE=Release"
+        ],
+        "cleanup": [
+          "/bin"
+        ],
+        "sources": [{
+          "type": "archive",
+          "url": "https://github.com/uclouvain/openjpeg/archive/v2.3.1.tar.gz",
+          "sha256": "63f5a4713ecafc86de51bfad89cc07bb788e9bba24ebbf0c4ca637621aadb6a9"
+        }]
       }],
       "build-options": {
         "arch": {
@@ -128,13 +125,11 @@
         "/app/lib/python*/site-packages/easy-install.pth",
         "/app/lib/python*/site-packages/setuptools.pth"
       ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://files.pythonhosted.org/packages/source/P/Pillow/Pillow-5.1.0.tar.gz",
-          "sha256": "cee9bc75bff455d317b6947081df0824a8f118de2786dc3d74a3503fd631f4ef"
-        }
-      ]
+      "sources": [{
+        "type": "archive",
+        "url": "https://files.pythonhosted.org/packages/81/1a/6b2971adc1bca55b9a53ed1efa372acff7e8b9913982a396f3fa046efaf8/Pillow-6.0.0.tar.gz",
+        "sha256": "809c0a2ce9032cbcd7b5313f71af4bdc5c8c771cb86eb7559afd954cab82ebb5"
+      }]
     },
     {
       "name": "python-idna",
@@ -142,41 +137,35 @@
       "build-commands": [
         "pip3 install --prefix=/app idna-2.6-py2.py3-none-any.whl"
       ],
-      "sources": [
-        {
-          "type": "file",
-          "url": "https://pypi.python.org/packages/27/cc/6dd9a3869f15c2edfab863b992838277279ce92663d334df9ecf5106f5c6/idna-2.6-py2.py3-none-any.whl#md5=875c4a7b32b4897537d5ea9247b5c79e",
-          "sha256": "8c7309c718f94b3a625cb648ace320157ad16ff131ae0af362c9f21b80ef6ec4"
-        }
-      ]
+      "sources": [{
+        "type": "file",
+        "url": "https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl",
+        "sha256": "ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c"
+      }]
     },
     {
       "name": "python-urllib3",
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --prefix=/app urllib3-1.22-py2.py3-none-any.whl"
+        "pip3 install --prefix=/app urllib3-1.24.2-py2.py3-none-any.whl"
       ],
-      "sources": [
-        {
-          "type": "file",
-          "url": "https://pypi.python.org/packages/63/cb/6965947c13a94236f6d4b8223e21beb4d576dc72e8130bd7880f600839b8/urllib3-1.22-py2.py3-none-any.whl#md5=1c11e1c80371cc4e89911071010a98d1",
-          "sha256": "06330f386d6e4b195fbfc736b297f58c5a892e4440e54d294d7004e3a9bbea1b"
-        }
-      ]
+      "sources": [{
+        "type": "file",
+        "url": "https://files.pythonhosted.org/packages/df/1c/59cca3abf96f991f2ec3131a4ffe72ae3d9ea1f5894abe8a9c5e3c77cfee/urllib3-1.24.2-py2.py3-none-any.whl",
+        "sha256": "4c291ca23bbb55c76518905869ef34bdd5f0e46af7afe6861e8375643ffee1a0"
+      }]
     },
     {
       "name": "python-certifi",
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --prefix=/app certifi-2018.1.18-py2.py3-none-any.whl"
+        "pip3 install --prefix=/app certifi-2019.3.9-py2.py3-none-any.whl"
       ],
-      "sources": [
-        {
-          "type": "file",
-          "url": "https://pypi.python.org/packages/fa/53/0a5562e2b96749e99a3d55d8c7df91c9e4d8c39a9da1f1a49ac9e4f4b39f/certifi-2018.1.18-py2.py3-none-any.whl#md5=38f1c6a4a5d6b5e8bcb614354d6584c9",
-          "sha256": "14131608ad2fd56836d33a71ee60fa1c82bc9d2c8d98b7bdbc631fe1b3cd1296"
-        }
-      ]
+      "sources": [{
+        "type": "file",
+        "url": "https://files.pythonhosted.org/packages/60/75/f692a584e85b7eaba0e03827b3d51f45f571c2e793dd731e598828d380aa/certifi-2019.3.9-py2.py3-none-any.whl",
+        "sha256": "59b7658e26ca9c7339e00f8f4636cdfe59d34fa37b9b04f6f9e9926b3cece1a5"
+      }]
     },
     {
       "name": "python-chardet",
@@ -184,41 +173,35 @@
       "build-commands": [
         "pip3 install --prefix=/app chardet-3.0.4-py2.py3-none-any.whl"
       ],
-      "sources": [
-        {
-          "type": "file",
-          "url": "https://pypi.python.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl#md5=0004b00caff7bb543a1d0d0bd0185a03",
-          "sha256": "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"
-        }
-      ]
+      "sources": [{
+        "type": "file",
+        "url": "https://pypi.python.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl#md5=0004b00caff7bb543a1d0d0bd0185a03",
+        "sha256": "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"
+      }]
     },
     {
       "name": "python-requests",
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --prefix=/app requests-2.18.4-py2.py3-none-any.whl"
+        "pip3 install --prefix=/app requests-2.21.0-py2.py3-none-any.whl"
       ],
-      "sources": [
-        {
-          "type": "file",
-          "url": "https://pypi.python.org/packages/49/df/50aa1999ab9bde74656c2919d9c0c085fd2b3775fd3eca826012bef76d8c/requests-2.18.4-py2.py3-none-any.whl#md5=eb9be71cc41fd73a51a7c9cd1adde5de",
-          "sha256": "6a1b267aa90cac58ac3a765d067950e7dbbf75b1da07e895d1f594193a40a38b"
-        }
-      ]
+      "sources": [{
+        "type": "file",
+        "url": "https://files.pythonhosted.org/packages/7d/e3/20f3d364d6c8e5d2353c72a67778eb189176f08e873c9900e10c0287b84b/requests-2.21.0-py2.py3-none-any.whl",
+        "sha256": "7bf2a778576d825600030a110f3c0e3e8edc51dfaafe1c146e39a2027784957b"
+      }]
     },
     {
       "name": "python-beautifulsoup4",
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --prefix=/app beautifulsoup4-4.6.0-py3-none-any.whl"
+        "pip3 install --prefix=/app beautifulsoup4-4.7.1-py3-none-any.whl"
       ],
-      "sources": [
-        {
-          "type": "file",
-          "url": "https://pypi.python.org/packages/9e/d4/10f46e5cfac773e22707237bfcd51bbffeaf0a576b0a847ec7ab15bd7ace/beautifulsoup4-4.6.0-py3-none-any.whl#md5=f6becf1889e5697734cc98798d2f0111",
-          "sha256": "11a9a27b7d3bddc6d86f59fb76afb70e921a25ac2d6cc55b40d072bd68435a76"
-        }
-      ]
+      "sources": [{
+        "type": "file",
+        "url": "https://files.pythonhosted.org/packages/1d/5d/3260694a59df0ec52f8b4883f5d23b130bc237602a1411fa670eae12351e/beautifulsoup4-4.7.1-py3-none-any.whl",
+        "sha256": "034740f6cb549b4e932ae1ab975581e6103ac8f942200a0e9759065984391858"
+      }]
     },
     {
       "name": "python-wikipedia",
@@ -226,13 +209,11 @@
       "build-commands": [
         "python3 setup.py install --prefix=/app --root=/"
       ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://pypi.python.org/packages/source/w/wikipedia/wikipedia-1.4.0.tar.gz",
-          "sha256": "db0fad1829fdd441b1852306e9856398204dc0786d2996dd2e0c8bb8e26133b2"
-        }
-      ]
+      "sources": [{
+        "type": "archive",
+        "url": "https://pypi.python.org/packages/source/w/wikipedia/wikipedia-1.4.0.tar.gz",
+        "sha256": "db0fad1829fdd441b1852306e9856398204dc0786d2996dd2e0c8bb8e26133b2"
+      }]
     },
     {
       "name": "python-socks",
@@ -240,13 +221,23 @@
       "build-commands": [
         "python3 setup.py install --prefix=/app --root=/"
       ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://pypi.python.org/packages/53/12/6bf1d764f128636cef7408e8156b7235b150ea31650d0260969215bb8e7d/PySocks-1.6.8.tar.gz#md5=441c4e3bf5b042f7e70613cd871df26c",
-          "sha256": "3fe52c55890a248676fd69dc9e3c4e811718b777834bcaab7a8125cf9deac672"
-        }
-      ]
+      "sources": [{
+        "type": "archive",
+        "url": "https://pypi.python.org/packages/53/12/6bf1d764f128636cef7408e8156b7235b150ea31650d0260969215bb8e7d/PySocks-1.6.8.tar.gz#md5=441c4e3bf5b042f7e70613cd871df26c",
+        "sha256": "3fe52c55890a248676fd69dc9e3c4e811718b777834bcaab7a8125cf9deac672"
+      }]
+    },
+    {
+      "name": "python-textblob",
+      "buildsystem": "simple",
+      "build-commands": [
+        "pip3 install --prefix=/app textblob-0.15.3-py2.py3-none-any.whl"
+      ],
+      "sources": [{
+        "type": "file",
+        "url": "https://files.pythonhosted.org/packages/60/f0/1d9bfcc8ee6b83472ec571406bd0dd51c0e6330ff1a51b2d29861d389e85/textblob-0.15.3-py2.py3-none-any.whl",
+        "sha256": "b0eafd8b129c9b196c8128056caed891d64b7fa20ba570e1fcde438f4f7dd312"
+      }]
     },
     {
       "name": "gmime",
@@ -257,54 +248,46 @@
         "*.la",
         "/share/gtk-doc"
       ],
-      "sources": [
-        {
-          "type": "git",
-          "branch": "3.0.0",
-          "url": "https://git.gnome.org/browse/gmime"
-        }
-      ]
+      "sources": [{
+        "type": "archive",
+        "url": "https://download.gnome.org/sources/gmime/3.2/gmime-3.2.3.tar.xz",
+        "sha256": "6a0875eeb552ab447dd54853a68ced62217d863631048737dd97eaa2713e7311"
+      }]
     },
     {
       "name": "totem-pl-parser",
       "buildsystem": "meson",
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.1.tar.xz",
-          "sha256": "6ae2c4b8acaf052af21b8db256b6314385de031ba721a2dbdb361e90d4b4b74c"
-        }
-      ],
-      "cleanup": [ 
+      "sources": [{
+        "type": "archive",
+        "url": "https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.3.tar.xz",
+        "sha256": "0efd01b8a0a9770d52fe7354d298874ed845449b88f3f78f49290729fc2d448d"
+      }],
+      "cleanup": [
         "/include",
         "/share/gtk-doc"
       ]
     },
     {
-        "name": "youtube-dl",
-        "buildsystem": "simple",
-        "build-commands": [
-            "pip3 install --prefix=/app youtube_dl-2019.3.1-py2.py3-none-any.whl"
-        ],
-        "sources": [
-          {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/53/cf/40128d8c672a221e9d3eec375a8b0f3df2b7358bb1fed8dddaa372ad257e/youtube_dl-2019.3.1-py2.py3-none-any.whl",
-            "sha256": "dfddbbe3e4d98e92038fd6adf76ad53e9fbfb5e254025880a40f2b8937dd9b2e"
-          }
-        ]
+      "name": "youtube-dl",
+      "buildsystem": "simple",
+      "build-commands": [
+        "python3 setup.py install --prefix=/app"
+      ],
+      "sources": [{
+        "type": "archive",
+        "url": "https://github.com/ytdl-org/youtube-dl/archive/2019.04.17.tar.gz",
+        "sha256": "93dfea11c42a3158bf8fb381bbb2a555c953e7133a8cc53c44068a8467ec19e0"
+      }]
     },
     {
       "name": "lollypop",
       "buildsystem": "meson",
-      "sources": [
-        {
-          "type": "git",
-          "url": "https://gitlab.gnome.org/World/lollypop.git",
-          "tag": "1.0.6",
-          "commit": "47c54ad4c691720fb705de7e7e932c2c450e97a0"
-        }
-      ]
+      "sources": [{
+        "type": "git",
+        "url": "https://gitlab.gnome.org/World/lollypop.git",
+        "tag": "1.0.6",
+        "commit": "47c54ad4c691720fb705de7e7e932c2c450e97a0"
+      }]
     }
   ]
 }
