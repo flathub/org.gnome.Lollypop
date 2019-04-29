@@ -311,8 +311,8 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "https://github.com/ytdl-org/youtube-dl/archive/2019.04.17.tar.gz",
-        "sha256": "93dfea11c42a3158bf8fb381bbb2a555c953e7133a8cc53c44068a8467ec19e0"
+        "url": "https://github.com/ytdl-org/youtube-dl/archive/2019.04.24.tar.gz",
+        "sha256": "f39fbcb57a012a7a55b11666603e6d6f87f520b926932c706af7946dbe6f84a7"
       }]
     },
     {
@@ -321,8 +321,8 @@
       "sources": [{
         "type": "git",
         "url": "https://gitlab.gnome.org/World/lollypop.git",
-        "tag": "1.0.6",
-        "commit": "47c54ad4c691720fb705de7e7e932c2c450e97a0"
+        "tag": "1.0.7",
+        "commit": "0852d8ae7e001d11a40b4e40d4818eb40fd8afc8"
       }]
     }
   ]
