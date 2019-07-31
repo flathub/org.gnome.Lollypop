@@ -216,18 +216,6 @@
       }]
     },
     {
-      "name": "python-wikipedia",
-      "buildsystem": "simple",
-      "build-commands": [
-        "python3 setup.py install --prefix=/app --root=/"
-      ],
-      "sources": [{
-        "type": "archive",
-        "url": "https://pypi.python.org/packages/source/w/wikipedia/wikipedia-1.4.0.tar.gz",
-        "sha256": "db0fad1829fdd441b1852306e9856398204dc0786d2996dd2e0c8bb8e26133b2"
-      }]
-    },
-    {
       "name": "python-socks",
       "buildsystem": "simple",
       "build-commands": [
@@ -311,8 +299,8 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "https://github.com/ytdl-org/youtube-dl/archive/2019.06.27.tar.gz",
-        "sha256": "f7f38d148416ee12582acb07901fb5cf69a8dabfab81620705869da9cc2660d4"
+        "url": "https://github.com/ytdl-org/youtube-dl/archive/2019.07.30.tar.gz",
+        "sha256": "761b6a992213fc20fb63452c9ca5d671110e6a1ed8825fe612e494f49ef8e8a4"
       }]
     },
     {
@@ -321,8 +309,8 @@
       "sources": [{
         "type": "git",
         "url": "https://gitlab.gnome.org/World/lollypop.git",
-        "tag": "1.1.3.1",
-        "commit": "a152d1c05406df1c1a129fff547401c4837ccb9c"
+        "tag": "1.1.4.8",
+        "commit": "3c0b023250ae91b8aada6b2dafd0b48342420cb3"
       }]
     }
   ]
