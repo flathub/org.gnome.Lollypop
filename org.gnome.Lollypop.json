@@ -2,6 +2,7 @@
   "app-id": "org.gnome.Lollypop",
   "runtime": "org.gnome.Platform",
   "runtime-version": "3.32",
+  "default-branch": "beta",
   "sdk": "org.gnome.Sdk",
   "command": "lollypop",
   "finish-args": [
@@ -309,8 +310,7 @@
       "sources": [{
         "type": "git",
         "url": "https://gitlab.gnome.org/World/lollypop.git",
-        "tag": "1.1.4.14",
-        "commit": "226936c9cbd95c32cb62250247467f423280f0b3"
+        "commit": "3039bb6d283dfa0ecfa80c3ee70fb9de606496b5"
       }]
     }
   ]
