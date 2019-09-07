@@ -300,7 +300,7 @@
       "sources": [{
         "type": "archive",
         "url": "https://github.com/ytdl-org/youtube-dl/archive/2019.09.01.tar.gz",
-        "sha256": "19374ff7ea794c934f75d65be98dac5837f078adb063c4980a9ce7593af06b49"
+        "sha256": "c753080a5263341b4235a2753dc103f89e8ad8e1a2c012e8fe03135c0e0fae18"
       }]
     },
     {
