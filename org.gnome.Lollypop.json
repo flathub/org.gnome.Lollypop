@@ -299,8 +299,8 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "https://github.com/ytdl-org/youtube-dl/archive/2019.08.13.tar.gz",
-        "sha256": "91f5642b111d9232f55ca31fffb462ac03a9faf933c0e33ddfc26e03a116cd16"
+        "url": "https://github.com/ytdl-org/youtube-dl/archive/2019.09.01.tar.gz",
+        "sha256": "c753080a5263341b4235a2753dc103f89e8ad8e1a2c012e8fe03135c0e0fae18"
       }]
     },
     {
