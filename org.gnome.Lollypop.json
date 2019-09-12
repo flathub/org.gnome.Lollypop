@@ -18,7 +18,8 @@
     "--talk-name=org.freedesktop.secrets",
     "--talk-name=org.freedesktop.Flatpak",
     "--talk-name=org.gnome.OnlineAccounts",
-    "--own-name=org.mpris.MediaPlayer2.Lollypop"
+    "--own-name=org.mpris.MediaPlayer2.Lollypop",
+    "--metadata=X-DConf=migrate-path=/org/gnome/Lollypop/"
   ],
   "modules": [{
       "name": "gst-libav",
