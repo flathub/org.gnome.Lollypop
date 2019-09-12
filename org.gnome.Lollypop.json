@@ -1,7 +1,7 @@
 {
   "app-id": "org.gnome.Lollypop",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.32",
+  "runtime-version": "3.34",
   "sdk": "org.gnome.Sdk",
   "command": "lollypop",
   "finish-args": [
@@ -12,17 +12,13 @@
     "--socket=pulseaudio",
     "--device=dri",
     "--filesystem=host",
-    "--filesystem=xdg-run/dconf",
-    "--filesystem=~/.config/dconf:rw",
     "--talk-name=org.gtk.vfs",
     "--talk-name=org.gtk.vfs.*",
     "--talk-name=org.freedesktop.Notifications",
     "--talk-name=org.freedesktop.secrets",
     "--talk-name=org.freedesktop.Flatpak",
     "--talk-name=org.gnome.OnlineAccounts",
-    "--talk-name=ca.desrt.dconf",
-    "--own-name=org.mpris.MediaPlayer2.Lollypop",
-    "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+    "--own-name=org.mpris.MediaPlayer2.Lollypop"
   ],
   "modules": [{
       "name": "gst-libav",
