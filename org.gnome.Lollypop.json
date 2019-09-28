@@ -1,9 +1,9 @@
 {
   "app-id": "org.gnome.Lollypop",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.32",
-  "default-branch": "beta",
+  "runtime-version": "3.34",
   "sdk": "org.gnome.Sdk",
+  "default-branch": "beta",
   "command": "lollypop",
   "finish-args": [
     "--share=ipc",
@@ -13,17 +13,14 @@
     "--socket=pulseaudio",
     "--device=dri",
     "--filesystem=host",
-    "--filesystem=xdg-run/dconf",
-    "--filesystem=~/.config/dconf:rw",
     "--talk-name=org.gtk.vfs",
     "--talk-name=org.gtk.vfs.*",
     "--talk-name=org.freedesktop.Notifications",
     "--talk-name=org.freedesktop.secrets",
     "--talk-name=org.freedesktop.Flatpak",
     "--talk-name=org.gnome.OnlineAccounts",
-    "--talk-name=ca.desrt.dconf",
     "--own-name=org.mpris.MediaPlayer2.Lollypop",
-    "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+    "--metadata=X-DConf=migrate-path=/org/gnome/Lollypop/"
   ],
   "modules": [{
       "name": "gst-libav",
@@ -300,8 +297,8 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "https://github.com/ytdl-org/youtube-dl/archive/2019.08.13.tar.gz",
-        "sha256": "91f5642b111d9232f55ca31fffb462ac03a9faf933c0e33ddfc26e03a116cd16"
+        "url": "https://github.com/ytdl-org/youtube-dl/archive/2019.09.28.tar.gz",
+        "sha256": "bfeb2c7ccdb7d04bbbffd9aea75792a74e57f595bc73a29eca0fab6f4fa91a2b"
       }]
     },
     {
@@ -310,7 +307,8 @@
       "sources": [{
         "type": "git",
         "url": "https://gitlab.gnome.org/World/lollypop.git",
-        "commit": "3039bb6d283dfa0ecfa80c3ee70fb9de606496b5"
+        "tag": "1.1.97.3",
+        "commit": "eecb9b88e491dc4592590ba13d1c3ab673f556a9"
       }]
     }
   ]
