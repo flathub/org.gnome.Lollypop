@@ -12,17 +12,14 @@
     "--socket=pulseaudio",
     "--device=dri",
     "--filesystem=host",
-    "--filesystem=xdg-run/dconf",
-    "--filesystem=~/.config/dconf:rw",
     "--talk-name=org.gtk.vfs",
     "--talk-name=org.gtk.vfs.*",
     "--talk-name=org.freedesktop.Notifications",
     "--talk-name=org.freedesktop.secrets",
     "--talk-name=org.freedesktop.Flatpak",
     "--talk-name=org.gnome.OnlineAccounts",
-    "--talk-name=ca.desrt.dconf",
     "--own-name=org.mpris.MediaPlayer2.Lollypop",
-    "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+    "--metadata=X-DConf=migrate-path=/org/gnome/Lollypop/"
   ],
   "modules": [{
       "name": "six",
