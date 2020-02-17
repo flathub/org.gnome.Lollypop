@@ -266,8 +266,8 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "https://github.com/ytdl-org/youtube-dl/archive/2020.01.24.tar.gz",
-        "sha256": "642b0e75fc1303555a0bbf5a7dff6d234e369f62a4b184038fa180c496da1e09"
+        "url": "https://github.com/ytdl-org/youtube-dl/archive/2020.02.16.tar.gz",
+        "sha256": "192e813f6d1c6dc92185c70712754894de8dac3867fd158351df53526cbb4d97"
       }]
     },
     {
