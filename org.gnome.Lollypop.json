@@ -261,8 +261,8 @@
       "sources": [{
         "type": "git",
         "url": "https://gitlab.gnome.org/World/lollypop.git",
-        "tag": "1.2.33",
-        "commit": "0c216534afd2934e21ba0d5275c8920a0c936abf"
+        "tag": "1.2.34",
+        "commit": "f838d252985edcbeb4a3161b4163f0d5eb14d486"
       }]
     }
   ]
