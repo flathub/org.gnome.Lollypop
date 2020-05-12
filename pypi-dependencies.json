@@ -1,0 +1,135 @@
+{
+    "name": "pypi-dependencies",
+    "buildsystem": "simple",
+    "build-commands": [],
+    "modules": [
+        {
+            "name": "python3-beautifulsoup4",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} beautifulsoup4"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/05/cf/ea245e52f55823f19992447b008bcbb7f78efc5960d77f6c34b5b45b36dd/soupsieve-2.0-py2.py3-none-any.whl",
+                    "sha256": "fcd71e08c0aee99aca1b73f45478549ee7e7fc006d51b37bec9e9def7dc22b69"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/e8/b5/7bb03a696f2c9b7af792a8f51b82974e51c268f15e925fc834876a4efa0b/beautifulsoup4-4.9.0-py3-none-any.whl",
+                    "sha256": "d4e96ac9b0c3a6d3f0caae2e4124e6055c5dcafde8e2f831ff194c104f0775a0"
+                }
+            ]
+        },
+        {
+            "name": "python3-Pillow",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} Pillow"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/ce/ef/e793f6ffe245c960c42492d0bb50f8d14e2ba223f1922a5c3c81569cec44/Pillow-7.1.2.tar.gz",
+                    "sha256": "a0b49960110bc6ff5fead46013bcb8825d101026d466f3a4de3476defe0fb0dd"
+                }
+            ]
+        },
+        {
+            "name": "python3-PyGObject",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} PyGObject"
+            ],
+            "sources": []
+        },
+        {
+            "name": "python3-pycairo",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} pycairo"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/e8/9d/c8be300fc6b1298559d37a071c3833b0b251e0fff334d2e4c408d5789162/pycairo-1.19.1.tar.gz",
+                    "sha256": "2c143183280feb67f5beb4e543fd49990c28e7df427301ede04fc550d3562e84"
+                }
+            ]
+        },
+        {
+            "name": "python3-pylast",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} pylast"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/78/ac/c7d83f55b84eca7bd23237050d1ed6798545d7608405d479a49629d2db74/pylast-3.2.1-py3-none-any.whl",
+                    "sha256": "8ba8d62e2c2af1d8a99878d7f7e91684c52dd3d2236b831b1fe2cbfcc664356d"
+                }
+            ]
+        },
+        {
+            "name": "python3-textblob",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} textblob"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/92/75/ce35194d8e3022203cca0d2f896dbb88689f9b3fce8e9f9cff942913519d/nltk-3.5.zip",
+                    "sha256": "845365449cd8c5f9731f7cb9f8bd6fd0767553b9d53af9eb1b3abf7700936b35"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/3b/42/d14dda3dc578485ec6e24d66fac5b731b2a4c5441db0e2fdc31672864115/tqdm-4.46.0.tar.gz",
+                    "sha256": "4733c4a10d0f2a4d098d801464bdaf5240c7dadd2a7fde4ee93b0a0efd9fb25e"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/83/79/1a6a3996e2c607c094fb263d7227f7790544bc207cc39ee3640862c7732d/regex-2020.5.7.tar.gz",
+                    "sha256": "73a10404867b835f1b8a64253e4621908f0d71150eb4e97ab2e7e441b53e9451"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/77/c4/26ba5eb6f494d2c307b74ee9bc591bc8153ec4c4fb2a54e780973526cfb5/joblib-0.14.1.tar.gz",
+                    "sha256": "0630eea4f5664c463f23fbf5dcfc54a2bc6168902719fa8e19daf033022786c8"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/27/6f/be940c8b1f1d69daceeb0032fee6c34d7bd70e3e649ccac0951500b4720e/click-7.1.2.tar.gz",
+                    "sha256": "d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/48/1b/b27c15bab38cc581dfe05504b289c5de34d68f666aedd1f565b8b5dd2de8/textblob-0.15.3.tar.gz",
+                    "sha256": "7ff3c00cb5a85a30132ee6768b8c68cb2b9d76432fec18cd1b3ffe2f8594ec8c"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/c9/40/058b12e8ba10e35f89c9b1fdfc2d4c7f8c05947df2d5eb3c7b258019fda0/tqdm-4.46.0-py2.py3-none-any.whl",
+                    "sha256": "acdafb20f51637ca3954150d0405ff1a7edde0ff19e38fb99a80a66210d2a28f"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl",
+                    "sha256": "bdb4fd9b72915ffb49fde2229ce482dd7ae79d842ed8c2b4c932441495af1403"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/d2/3d/fa76db83bf75c4f8d338c2fd15c8d33fdd7ad23a9b5e57eb6c5de26b430e/click-7.1.2-py2.py3-none-any.whl",
+                    "sha256": "dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/60/f0/1d9bfcc8ee6b83472ec571406bd0dd51c0e6330ff1a51b2d29861d389e85/textblob-0.15.3-py2.py3-none-any.whl",
+                    "sha256": "b0eafd8b129c9b196c8128056caed891d64b7fa20ba570e1fcde438f4f7dd312"
+                }
+            ]
+        }
+    ]
+}
