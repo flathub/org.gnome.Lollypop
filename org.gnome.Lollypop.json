@@ -47,8 +47,8 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "https://github.com/pylast/pylast/archive/3.2.1.tar.gz",
-        "sha256": "b1893d79e507159e543b91d0c1ebfe062896be4abfd8a1fa9eaa6504098f86bf"
+        "url": "https://github.com/pylast/pylast/archive/3.1.0.tar.gz",
+        "sha256": "2b3584be8ae97a98814395025c07c9f54fad6f4afd640b37ae6ff8308409e59c"
       }]
     },
     {
@@ -87,7 +87,7 @@
       "name": "python-idna",
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --prefix=/app idna-2.8-py2.py3-none-any.whl"
+        "pip3 install --prefix=/app idna-2.9-py2.py3-none-any.whl"
       ],
       "sources": [{
         "type": "file",
@@ -99,7 +99,7 @@
       "name": "python-urllib3",
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --prefix=/app urllib3-1.25.6-py2.py3-none-any.whl"
+        "pip3 install --prefix=/app urllib3-1.25.9-py2.py3-none-any.whl"
       ],
       "sources": [{
         "type": "file",
@@ -111,7 +111,7 @@
       "name": "python-certifi",
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --prefix=/app certifi-2019.9.11-py2.py3-none-any.whl"
+        "pip3 install --prefix=/app certifi-2020.4.5.1-py2.py3-none-any.whl"
       ],
       "sources": [{
         "type": "file",
@@ -135,7 +135,7 @@
       "name": "python-requests",
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --prefix=/app requests-2.22.0-py2.py3-none-any.whl"
+        "pip3 install --prefix=/app requests-2.23.0-py2.py3-none-any.whl"
       ],
       "sources": [{
         "type": "file",
@@ -147,23 +147,23 @@
       "name": "python-beautifulsoup4",
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --prefix=/app beautifulsoup4-4.8.1-py3-none-any.whl"
+        "pip3 install --prefix=/app beautifulsoup4-4.9.0-py3-none-any.whl"
       ],
       "sources": [{
         "type": "file",
-        "url": "https://files.pythonhosted.org/packages/3b/c8/a55eb6ea11cd7e5ac4bacdf92bac4693b90d3ba79268be16527555e186f0/beautifulsoup4-4.8.1-py3-none-any.whl",
-        "sha256": "dcdef580e18a76d54002088602eba453eec38ebbcafafeaabd8cab12b6155d57"
+        "url": "https://files.pythonhosted.org/packages/e8/b5/7bb03a696f2c9b7af792a8f51b82974e51c268f15e925fc834876a4efa0b/beautifulsoup4-4.9.0-py3-none-any.whl",
+        "sha256": "d4e96ac9b0c3a6d3f0caae2e4124e6055c5dcafde8e2f831ff194c104f0775a0"
       }],
       "modules": [{
         "name": "soupsieve",
         "buildsystem": "simple",
         "build-commands": [
-          "pip3 install --prefix=/app soupsieve-1.9.4-py2.py3-none-any.whl"
+          "pip3 install --prefix=/app soupsieve-2.0-py2.py3-none-any.whl"
         ],
         "sources": [{
           "type": "file",
-          "url": "https://files.pythonhosted.org/packages/5d/42/d821581cf568e9b7dfc5b415aa61952b0f5e3dede4f3cbd650e3a1082992/soupsieve-1.9.4-py2.py3-none-any.whl",
-          "sha256": "b91d676b330a0ebd5b21719cb6e9b57c57d433671f65b9c28dd3461d9a1ed0b6"
+          "url": "https://files.pythonhosted.org/packages/05/cf/ea245e52f55823f19992447b008bcbb7f78efc5960d77f6c34b5b45b36dd/soupsieve-2.0-py2.py3-none-any.whl",
+          "sha256": "fcd71e08c0aee99aca1b73f45478549ee7e7fc006d51b37bec9e9def7dc22b69"
         }]
       }]
     },
@@ -229,8 +229,8 @@
       "buildsystem": "meson",
       "sources": [{
         "type": "archive",
-        "url": "https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.3.tar.xz",
-        "sha256": "0efd01b8a0a9770d52fe7354d298874ed845449b88f3f78f49290729fc2d448d"
+        "url": "https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.5.tar.xz",
+        "sha256": "5370de46f2e848221779275479b96ac39115b1efd2b0293d4afa87e22c8c528c"
       }],
       "cleanup": [
         "/include",
