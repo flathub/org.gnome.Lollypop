@@ -37,14 +37,6 @@
             ]
         },
         {
-            "name": "python3-PyGObject",
-            "buildsystem": "simple",
-            "build-commands": [
-                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} PyGObject"
-            ],
-            "sources": []
-        },
-        {
             "name": "python3-pycairo",
             "buildsystem": "simple",
             "build-commands": [
