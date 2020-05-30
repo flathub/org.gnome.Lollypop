@@ -12,13 +12,13 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/05/cf/ea245e52f55823f19992447b008bcbb7f78efc5960d77f6c34b5b45b36dd/soupsieve-2.0-py2.py3-none-any.whl",
-                    "sha256": "fcd71e08c0aee99aca1b73f45478549ee7e7fc006d51b37bec9e9def7dc22b69"
+                    "url": "https://files.pythonhosted.org/packages/6f/8f/457f4a5390eeae1cc3aeab89deb7724c965be841ffca6cfca9197482e470/soupsieve-2.0.1-py3-none-any.whl",
+                    "sha256": "1634eea42ab371d3d346309b93df7870a88610f0725d47528be902a0d95ecc55"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/e8/b5/7bb03a696f2c9b7af792a8f51b82974e51c268f15e925fc834876a4efa0b/beautifulsoup4-4.9.0-py3-none-any.whl",
-                    "sha256": "d4e96ac9b0c3a6d3f0caae2e4124e6055c5dcafde8e2f831ff194c104f0775a0"
+                    "url": "https://files.pythonhosted.org/packages/66/25/ff030e2437265616a1e9b25ccc864e0371a0bc3adb7c5a404fd661c6f4f6/beautifulsoup4-4.9.1-py3-none-any.whl",
+                    "sha256": "a6237df3c32ccfaee4fd201c8f5f9d9df619b93121d01353a64a73ce8c6ef9a8"
                 }
             ]
         },
@@ -83,13 +83,13 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/83/79/1a6a3996e2c607c094fb263d7227f7790544bc207cc39ee3640862c7732d/regex-2020.5.7.tar.gz",
-                    "sha256": "73a10404867b835f1b8a64253e4621908f0d71150eb4e97ab2e7e441b53e9451"
+                    "url": "https://files.pythonhosted.org/packages/14/8d/d44863d358e9dba3bdfb06099bbbeddbac8fb360773ba73250a849af4b01/regex-2020.5.14.tar.gz",
+                    "sha256": "ce450ffbfec93821ab1fea94779a8440e10cf63819be6e176eb1973a6017aff5"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/77/c4/26ba5eb6f494d2c307b74ee9bc591bc8153ec4c4fb2a54e780973526cfb5/joblib-0.14.1.tar.gz",
-                    "sha256": "0630eea4f5664c463f23fbf5dcfc54a2bc6168902719fa8e19daf033022786c8"
+                    "url": "https://files.pythonhosted.org/packages/57/d2/45a038246a0596fb73af64c07e95578764d0fd115ce67f6b41eb457eed39/joblib-0.15.1.tar.gz",
+                    "sha256": "61e49189c84b3c5d99a969d314853f4d1d263316cc694bec17548ebaa9c47b6e"
                 },
                 {
                     "type": "file",
@@ -108,8 +108,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl",
-                    "sha256": "bdb4fd9b72915ffb49fde2229ce482dd7ae79d842ed8c2b4c932441495af1403"
+                    "url": "https://files.pythonhosted.org/packages/b8/a6/d1a816b89aa1e9e96bcb298eb1ee1854f21662ebc6d55ffa3d7b3b50122b/joblib-0.15.1-py3-none-any.whl",
+                    "sha256": "6825784ffda353cc8a1be573118085789e5b5d29401856b35b756645ab5aecb5"
                 },
                 {
                     "type": "file",
