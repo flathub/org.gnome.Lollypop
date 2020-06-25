@@ -59,8 +59,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/78/ac/c7d83f55b84eca7bd23237050d1ed6798545d7608405d479a49629d2db74/pylast-3.2.1-py3-none-any.whl",
-                    "sha256": "8ba8d62e2c2af1d8a99878d7f7e91684c52dd3d2236b831b1fe2cbfcc664356d"
+                    "url": "https://files.pythonhosted.org/packages/62/e6/5de418f18198fc1cb3204e196f27ea136cbd4d796b2437e0f882d21fc5c7/pylast-3.3.0-py3-none-any.whl",
+                    "sha256": "75e74caab76fbc7c969e13a694ad15909b1ca02e85f48dd9ba1462a07f0783cc"
                 }
             ]
         },
