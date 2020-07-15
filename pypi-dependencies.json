@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ce/ef/e793f6ffe245c960c42492d0bb50f8d14e2ba223f1922a5c3c81569cec44/Pillow-7.1.2.tar.gz",
-                    "sha256": "a0b49960110bc6ff5fead46013bcb8825d101026d466f3a4de3476defe0fb0dd"
+                    "url": "https://files.pythonhosted.org/packages/3e/02/b09732ca4b14405ff159c470a612979acfc6e8645dc32f83ea0129709f7a/Pillow-7.2.0.tar.gz",
+                    "sha256": "97f9e7953a77d5a70f49b9a48da7776dc51e9b738151b22dacf101641594a626"
                 }
             ]
         },
@@ -78,18 +78,18 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/a9/03/df1d77e852dd697c0ff7b7b1b9888739517e5f97dfbd2cf7ebd13234084c/tqdm-4.46.1.tar.gz",
-                    "sha256": "cd140979c2bebd2311dfb14781d8f19bd5a9debb92dcab9f6ef899c987fcf71f"
+                    "url": "https://files.pythonhosted.org/packages/3c/17/229e06a959dc41b85be2e372096b2637e51de5f84afc58b3e588f1826c80/tqdm-4.47.0.tar.gz",
+                    "sha256": "63ef7a6d3eb39f80d6b36e4867566b3d8e5f1fe3d6cb50c5e9ede2b3198ba7b7"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b8/7b/01510a6229c2176425bda54d15fba05a4b3df169b87265b008480261d2f9/regex-2020.6.8.tar.gz",
-                    "sha256": "e9b64e609d37438f7d6e68c2546d2cb8062f3adb27e6336bc129b51be20773ac"
+                    "url": "https://files.pythonhosted.org/packages/09/c3/ddaa87500f31ed86290e3d014c0302a51fde28d7139eda0b5f33733726db/regex-2020.7.14.tar.gz",
+                    "sha256": "3a3af27a8d23143c49a3420efe5b3f8cf1a48c6fc8bc6856b03f638abc1833bb"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/57/d2/45a038246a0596fb73af64c07e95578764d0fd115ce67f6b41eb457eed39/joblib-0.15.1.tar.gz",
-                    "sha256": "61e49189c84b3c5d99a969d314853f4d1d263316cc694bec17548ebaa9c47b6e"
+                    "url": "https://files.pythonhosted.org/packages/1f/17/6162a5fd4b2b76f2beb5933547ea5c3a27304585483edc93dedd740cf9b9/joblib-0.16.0.tar.gz",
+                    "sha256": "8f52bf24c64b608bf0b2563e0e47d6fcf516abc8cfafe10cfd98ad66d94f92d6"
                 },
                 {
                     "type": "file",
@@ -103,13 +103,13 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/f3/76/4697ce203a3d42b2ead61127b35e5fcc26bba9a35c03b32a2bd342a4c869/tqdm-4.46.1-py2.py3-none-any.whl",
-                    "sha256": "07c06493f1403c1380b630ae3dcbe5ae62abcf369a93bbc052502279f189ab8c"
+                    "url": "https://files.pythonhosted.org/packages/46/62/7663894f67ac5a41a0d8812d78d9d2a9404124051885af9d77dc526fb399/tqdm-4.47.0-py2.py3-none-any.whl",
+                    "sha256": "7810e627bcf9d983a99d9ff8a0c09674400fd2927eddabeadf153c14a2ec8656"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b8/a6/d1a816b89aa1e9e96bcb298eb1ee1854f21662ebc6d55ffa3d7b3b50122b/joblib-0.15.1-py3-none-any.whl",
-                    "sha256": "6825784ffda353cc8a1be573118085789e5b5d29401856b35b756645ab5aecb5"
+                    "url": "https://files.pythonhosted.org/packages/51/dd/0e015051b4a27ec5a58b02ab774059f3289a94b0906f880a3f9507e74f38/joblib-0.16.0-py3-none-any.whl",
+                    "sha256": "d348c5d4ae31496b2aa060d6d9b787864dd204f9480baaa52d18850cb43e9f49"
                 },
                 {
                     "type": "file",
