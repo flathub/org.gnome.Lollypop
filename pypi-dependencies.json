@@ -78,8 +78,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/3c/17/229e06a959dc41b85be2e372096b2637e51de5f84afc58b3e588f1826c80/tqdm-4.47.0.tar.gz",
-                    "sha256": "63ef7a6d3eb39f80d6b36e4867566b3d8e5f1fe3d6cb50c5e9ede2b3198ba7b7"
+                    "url": "https://files.pythonhosted.org/packages/71/6c/6530032ec26dddd47bb9e052781bcbbcaa560f05d10cdaf365ecb990d220/tqdm-4.48.0.tar.gz",
+                    "sha256": "6baa75a88582b1db6d34ce4690da5501d2a1cb65c34664840a456b2c9f794d29"
                 },
                 {
                     "type": "file",
@@ -103,8 +103,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/46/62/7663894f67ac5a41a0d8812d78d9d2a9404124051885af9d77dc526fb399/tqdm-4.47.0-py2.py3-none-any.whl",
-                    "sha256": "7810e627bcf9d983a99d9ff8a0c09674400fd2927eddabeadf153c14a2ec8656"
+                    "url": "https://files.pythonhosted.org/packages/af/88/7b0ea5fa8192d1733dea459a9e3059afc87819cb4072c43263f2ec7ab768/tqdm-4.48.0-py2.py3-none-any.whl",
+                    "sha256": "fcb7cb5b729b60a27f300b15c1ffd4744f080fb483b88f31dc8654b082cc8ea5"
                 },
                 {
                     "type": "file",
