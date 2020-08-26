@@ -38,7 +38,25 @@
   ],
   "modules": [
     "pypi-dependencies.json",
-    /* Required because of an issue upstream. See pull request for details
+     /* Required for .wma support 
+     * Make sure that the versions of gstreamer and the plug-ins remain in lockstep
+     * with 19.08, we use gstreamer 1.16 but 20.08 will likely have gstreamer 1.17
+     * If we don't recompile the plugin, it won't know have the proper libgstasf.so and libgstrealmedia.so
+     */
+    {
+      "name": "gst-plugins-ugly",
+      "buildsystem": "meson",
+      "cleanup": [
+        "*.la",
+        "/share/gtk-doc"
+      ],
+      "sources": [{
+        "type": "archive",
+        "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.16.2.tar.xz",
+        "sha256": "5500415b865e8b62775d4742cbb9f37146a50caecfc0e7a6fc0160d3c560fbca"
+      }]
+    },
+    /* Required because of an issue upstream. See previous pull request for details
      * When updating the runtime, double-check if the package still needs this
      */
     {
