@@ -30,7 +30,7 @@
       "version": "19.08",
       "add-ld-path": ".",
       "no-autodownload": true,
-      "autodelete": true
+      "autodelete": false
     }
   },
   "cleanup-commands": [
