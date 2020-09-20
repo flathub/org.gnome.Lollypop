@@ -52,6 +52,19 @@
       }]
     },
     {
+      "name": "gst-python",
+      "buildsystem": "meson",
+      "config-opts": [
+        "-Dpygi-overrides-dir=/app/lib/python3.8/site-packages/gi/overrides/"
+      ],
+      "sources": [{
+        "type": "git",
+        "branch": "1.16.2",
+        "url": "https://gitlab.freedesktop.org/gstreamer/gst-python.git",
+        "commit": "5343aeb4151cfca54aa024b53e0cc4e02a27dacf"
+      }]
+    },
+    {
       "name": "gmime",
       "config-opts": [
         "--disable-gtk-doc"
