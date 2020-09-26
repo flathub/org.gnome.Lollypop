@@ -93,6 +93,20 @@
       ]
     },
     {
+    "name": "libhandy",
+    "buildsystem": "meson",
+    "config-opts": [
+        "-Dglade_catalog=disabled",
+        "-Dtests=false",
+        "-Dexamples=false"
+    ],
+    "sources": [{
+        "type" : "archive",
+            "url" : "https://gitlab.gnome.org/GNOME/libhandy/-/archive/1.0.0/libhandy-1.0.0.tar.gz",
+            "sha256" : "dc1fff98cbc72a492d1adb489ee1b00e43ab4ac14c983c855ef3df435bbbda27"
+        }]
+    },
+    {
       "name": "youtube-dl",
       "buildsystem": "simple",
       "build-commands": [
