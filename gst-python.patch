@@ -1,0 +1,32 @@
+diff --git a/meson.build b/meson.build
+index 744b7ce..97f48ab 100644
+--- a/meson.build
++++ b/meson.build
+@@ -13,6 +13,8 @@ api_version = '@0@.0'.format(gst_version_major)
+ 
+ add_project_arguments('-DHAVE_CONFIG_H', language: 'c')
+ 
++
++
+ gst_req = '>= @0@.@1@.0'.format(gst_version_major, gst_version_minor)
+ 
+ gst_dep = dependency('gstreamer-1.0', version : gst_req,
+@@ -24,7 +26,17 @@ pygobject_dep = dependency('pygobject-3.0', fallback: ['pygobject', 'pygobject_d
+ 
+ pymod = import('python')
+ python = pymod.find_installation(get_option('python'))
+-python_dep = python.dependency(required : true)
++pythonver = python.language_version()
++if pythonver.version_compare('<3.0')
++  error('Python2 is not supported anymore, please port your code to python3 (@0@ specified)'.format(python.language_version()))
++endif
++
++# Workaround for https://github.com/mesonbuild/meson/issues/5629
++# https://gitlab.freedesktop.org/gstreamer/gst-python/issues/28
++python_dep = dependency('python-@0@-embed'.format(pythonver), version: '>=3', required: false)
++if not python_dep.found()
++  python_dep = python.dependency(required : true)
++endif
+ 
+ python_abi_flags = python.get_variable('ABIFLAGS', '')
+ pylib_loc = get_option('libpython-dir')
