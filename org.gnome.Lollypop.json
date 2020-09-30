@@ -1,7 +1,7 @@
 {
   "app-id": "org.gnome.Lollypop",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.36",
+  "runtime-version": "3.38",
   "sdk": "org.gnome.Sdk",
   "command": "lollypop",
   "finish-args": [
@@ -27,7 +27,7 @@
   "add-extensions": {
     "org.freedesktop.Platform.ffmpeg-full": {
       "directory": "lib/ffmpeg",
-      "version": "19.08",
+      "version": "20.08",
       "add-ld-path": ".",
       "no-autodownload": true,
       "autodelete": false
@@ -62,6 +62,10 @@
         "branch": "1.16.2",
         "url": "https://gitlab.freedesktop.org/gstreamer/gst-python.git",
         "commit": "5343aeb4151cfca54aa024b53e0cc4e02a27dacf"
+      },
+      {
+        "type": "patch",
+        "path": "gst-python.patch"
       }]
     },
     {
