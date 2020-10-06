@@ -17,8 +17,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/66/25/ff030e2437265616a1e9b25ccc864e0371a0bc3adb7c5a404fd661c6f4f6/beautifulsoup4-4.9.1-py3-none-any.whl",
-                    "sha256": "a6237df3c32ccfaee4fd201c8f5f9d9df619b93121d01353a64a73ce8c6ef9a8"
+                    "url": "https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl",
+                    "sha256": "fff47e031e34ec82bf17e00da8f592fe7de69aeea38be00523c04623c04fb666"
                 }
             ]
         },
@@ -45,8 +45,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/e8/9d/c8be300fc6b1298559d37a071c3833b0b251e0fff334d2e4c408d5789162/pycairo-1.19.1.tar.gz",
-                    "sha256": "2c143183280feb67f5beb4e543fd49990c28e7df427301ede04fc550d3562e84"
+                    "url": "https://files.pythonhosted.org/packages/9d/6e/499d6a6db416eb3cdf0e57762a269908e4ab6638a75a90972afc34885b91/pycairo-1.20.0.tar.gz",
+                    "sha256": "5695a10cb7f9ae0d01f665b56602a845b0a8cb17e2123bfece10c2e58552468c"
                 },
                 {
                     "type": "file",
@@ -64,8 +64,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/e8/9d/c8be300fc6b1298559d37a071c3833b0b251e0fff334d2e4c408d5789162/pycairo-1.19.1.tar.gz",
-                    "sha256": "2c143183280feb67f5beb4e543fd49990c28e7df427301ede04fc550d3562e84"
+                    "url": "https://files.pythonhosted.org/packages/9d/6e/499d6a6db416eb3cdf0e57762a269908e4ab6638a75a90972afc34885b91/pycairo-1.20.0.tar.gz",
+                    "sha256": "5695a10cb7f9ae0d01f665b56602a845b0a8cb17e2123bfece10c2e58552468c"
                 }
             ]
         },
@@ -92,18 +92,18 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/73/d5/f220e0c69b2f346b5649b66abebb391df1a00a59997a7ccf823325bd7a3e/tqdm-4.49.0-py2.py3-none-any.whl",
-                    "sha256": "8f3c5815e3b5e20bc40463fa6b42a352178859692a68ffaa469706e6d38342a5"
+                    "url": "https://files.pythonhosted.org/packages/0a/0e/ea53a3d6f1eb2cc31162c9ae89555cc26a3986e5559781f0b0df75aea5cf/tqdm-4.50.0-py2.py3-none-any.whl",
+                    "sha256": "2dd75fdb764f673b8187643496fcfbeac38348015b665878e582b152f3391cdb"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/09/c3/ddaa87500f31ed86290e3d014c0302a51fde28d7139eda0b5f33733726db/regex-2020.7.14.tar.gz",
-                    "sha256": "3a3af27a8d23143c49a3420efe5b3f8cf1a48c6fc8bc6856b03f638abc1833bb"
+                    "url": "https://files.pythonhosted.org/packages/93/8c/17f45cdfb39b13d4b5f909e4b4c2917abcbdef9c0036919a0399769148cf/regex-2020.9.27.tar.gz",
+                    "sha256": "a6f32aea4260dfe0e55dc9733ea162ea38f0ea86aa7d0f77b15beac5bf7b369d"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/51/dd/0e015051b4a27ec5a58b02ab774059f3289a94b0906f880a3f9507e74f38/joblib-0.16.0-py3-none-any.whl",
-                    "sha256": "d348c5d4ae31496b2aa060d6d9b787864dd204f9480baaa52d18850cb43e9f49"
+                    "url": "https://files.pythonhosted.org/packages/fc/c9/f58220ac44a1592f79a343caba12f6837f9e0c04c196176a3d66338e1ea8/joblib-0.17.0-py3-none-any.whl",
+                    "sha256": "698c311779f347cf6b7e6b8a39bb682277b8ee4aba8cf9507bc0cf4cd4737b72"
                 },
                 {
                     "type": "file",
