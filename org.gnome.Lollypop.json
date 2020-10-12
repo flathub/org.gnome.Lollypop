@@ -11,7 +11,7 @@
     "--socket=wayland",
     "--socket=pulseaudio",
     "--device=dri",
-    "--filesystem=host",
+    "--filesystem=xdg-music",
     "--talk-name=org.gtk.vfs",
     "--talk-name=org.gtk.vfs.*",
     "--talk-name=org.freedesktop.Notifications",
