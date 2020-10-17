@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/3e/02/b09732ca4b14405ff159c470a612979acfc6e8645dc32f83ea0129709f7a/Pillow-7.2.0.tar.gz",
-                    "sha256": "97f9e7953a77d5a70f49b9a48da7776dc51e9b738151b22dacf101641594a626"
+                    "url": "https://files.pythonhosted.org/packages/74/15/93be74c3124ad183ea3f25251a66d3c7f8641065537973c276e81f703a0b/Pillow-8.0.0.tar.gz",
+                    "sha256": "59304c67d12394815331eda95ec892bf54ad95e0aa7bc1ccd8e0a4a5a25d4bf3"
                 }
             ]
         },
@@ -78,8 +78,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/62/e6/5de418f18198fc1cb3204e196f27ea136cbd4d796b2437e0f882d21fc5c7/pylast-3.3.0-py3-none-any.whl",
-                    "sha256": "75e74caab76fbc7c969e13a694ad15909b1ca02e85f48dd9ba1462a07f0783cc"
+                    "url": "https://files.pythonhosted.org/packages/b5/d9/514045c4461109e138b3ef76a0c113d5ff698b0b94c28caa0666805b6015/pylast-4.0.0-py3-none-any.whl",
+                    "sha256": "745eab1be2bf70599f61abb4f11d48edcc2073f0dd3b3003c82f1ec72dec457d"
                 }
             ]
         },
@@ -92,13 +92,13 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/0a/0e/ea53a3d6f1eb2cc31162c9ae89555cc26a3986e5559781f0b0df75aea5cf/tqdm-4.50.0-py2.py3-none-any.whl",
-                    "sha256": "2dd75fdb764f673b8187643496fcfbeac38348015b665878e582b152f3391cdb"
+                    "url": "https://files.pythonhosted.org/packages/bd/cf/f91813073e4135c1183cadf968256764a6fe4e35c351d596d527c0540461/tqdm-4.50.2-py2.py3-none-any.whl",
+                    "sha256": "43ca183da3367578ebf2f1c2e3111d51ea161ed1dc4e6345b86e27c2a93beff7"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/93/8c/17f45cdfb39b13d4b5f909e4b4c2917abcbdef9c0036919a0399769148cf/regex-2020.9.27.tar.gz",
-                    "sha256": "a6f32aea4260dfe0e55dc9733ea162ea38f0ea86aa7d0f77b15beac5bf7b369d"
+                    "url": "https://files.pythonhosted.org/packages/c9/16/4ea16f4510afd7ce4b77d8ee7ca97717408b3cf99e0a4b3cdd0a47ef6466/regex-2020.10.15.tar.gz",
+                    "sha256": "d25f5cca0f3af6d425c9496953445bf5b288bb5b71afc2b8308ad194b714c159"
                 },
                 {
                     "type": "file",
