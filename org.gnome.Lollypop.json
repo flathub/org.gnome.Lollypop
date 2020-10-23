@@ -123,9 +123,10 @@
         "/app/lib/python*/site-packages/setuptools.pth"
       ],
       "sources": [{
-        "type": "archive",
-        "url": "https://github.com/ytdl-org/youtube-dl/archive/2020.09.20.tar.gz",
-        "sha256": "ead79e9248aaf7667f015da2ccd4bde44a8948fa980f82965609cdca88ad285e"
+        "type": "git",
+        "url": "https://gitee.com/mirrors/youtube-downloader.git",
+        "tag": "2020.09.20",
+        "commit": "b55715934bb7f9474f69b99e4d51cc83dee7cbef"
       }]
     },
     {
@@ -134,8 +135,8 @@
       "sources": [{
         "type": "git",
         "url": "https://gitlab.gnome.org/World/lollypop.git",
-        "tag": "1.4.2",
-        "commit": "eac36db4a2b97d553461c1a5d48fda70cda5e6d8"
+        "tag": "1.4.4",
+        "commit": "91d0384e4547b21e48e7f36d5bcdd0c8d933d5ad"
       }]
     }
   ]
