@@ -123,10 +123,9 @@
         "/app/lib/python*/site-packages/setuptools.pth"
       ],
       "sources": [{
-        "type": "git",
-        "url": "https://gitee.com/mirrors/youtube-downloader.git",
-        "tag": "2020.09.20",
-        "commit": "b55715934bb7f9474f69b99e4d51cc83dee7cbef"
+        "type": "archive",
+        "url": "http://deb.debian.org/debian/pool/main/y/youtube-dl/youtube-dl_2020.09.14.orig.tar.gz",
+        "sha256": "0657c19661bbec99117a2eb2b5a2d26d3f0b0a58703035f1ebf76bb5f2858ea3"
       }]
     },
     {
@@ -135,8 +134,8 @@
       "sources": [{
         "type": "git",
         "url": "https://gitlab.gnome.org/World/lollypop.git",
-        "tag": "1.4.4",
-        "commit": "91d0384e4547b21e48e7f36d5bcdd0c8d933d5ad"
+        "tag": "1.4.5",
+        "commit": "3b129c5986af15fc110009a957629c19fab8c09e"
       }]
     }
   ]
