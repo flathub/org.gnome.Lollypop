@@ -124,8 +124,8 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "http://deb.debian.org/debian/pool/main/y/youtube-dl/youtube-dl_2020.09.14.orig.tar.gz",
-        "sha256": "0657c19661bbec99117a2eb2b5a2d26d3f0b0a58703035f1ebf76bb5f2858ea3"
+        "url": "https://youtube-dl.org/downloads/latest/youtube-dl-2020.11.01.1.tar.gz",
+        "sha256": "7a62187bc9f91af42eb5c9c95652e350170a72dbbdac8c7d71a6aeb4885a901a"
       }]
     },
     {

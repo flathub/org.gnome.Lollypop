@@ -92,13 +92,13 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/bd/cf/f91813073e4135c1183cadf968256764a6fe4e35c351d596d527c0540461/tqdm-4.50.2-py2.py3-none-any.whl",
-                    "sha256": "43ca183da3367578ebf2f1c2e3111d51ea161ed1dc4e6345b86e27c2a93beff7"
+                    "url": "https://files.pythonhosted.org/packages/93/3a/96b3dc293aa72443cf9627444c3c221a7ba34bb622e4d8bf1b5d4f2d9d08/tqdm-4.51.0-py2.py3-none-any.whl",
+                    "sha256": "9ad44aaf0fc3697c06f6e05c7cf025dd66bc7bcb7613c66d85f4464c47ac8fad"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b5/48/91b0da3e87300e300f30dad9a71faa8777a5a961ceeb9f21384a37f7bf59/regex-2020.10.23.tar.gz",
-                    "sha256": "2278453c6a76280b38855a263198961938108ea2333ee145c5168c36b8e2b376"
+                    "url": "https://files.pythonhosted.org/packages/fb/ef/8880ca0f2bc2e51a39aacf62a81947971aea42b3b54ca58111b5a5ba6e05/regex-2020.10.28.tar.gz",
+                    "sha256": "dd3e6547ecf842a29cf25123fbf8d2461c53c8d37aa20d87ecee130c89b7079b"
                 },
                 {
                     "type": "file",
