@@ -106,8 +106,8 @@
     ],
     "sources": [{
         "type" : "archive",
-            "url" : "https://gitlab.gnome.org/GNOME/libhandy/-/archive/1.0.0/libhandy-1.0.0.tar.gz",
-            "sha256" : "dc1fff98cbc72a492d1adb489ee1b00e43ab4ac14c983c855ef3df435bbbda27"
+            "url" : "https://download.gnome.org/sources/libhandy/1.0/libhandy-1.0.2.tar.xz",
+            "sha256" : "3ad78d0594165c7e8150f662506d386552825e693aa3679744af96bd94dc1c2d"
         }]
     },
     {
@@ -124,8 +124,8 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.11.17/youtube-dl-2020.11.17.tar.gz",
-        "sha256": "62854617c40c700db4d5f5a49fceb4642c0b3cfdd55769cc0c568a6a77d51b2c"
+        "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.11.19/youtube-dl-2020.11.19.tar.gz",
+        "sha256": "f8c14d9eb2fd8fe7242de8b96f2c918810867c518a162405644f483dcd14be9e"
       }]
     },
     {
