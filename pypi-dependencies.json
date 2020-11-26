@@ -92,8 +92,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/dc/7e/bc84ebdb47cfc1f643d026570cb24dd40c2b7a29e167ea101f1702717658/tqdm-4.52.0-py2.py3-none-any.whl",
-                    "sha256": "80d9d5165d678dbd027dd102dfb99f71bf05f333b61fb761dbba13b4ab719ead"
+                    "url": "https://files.pythonhosted.org/packages/02/bc/857fff709f7ce9eabdc502d6fa71f4b7e964200b1bcd00f0a2f59667d1bf/tqdm-4.53.0-py2.py3-none-any.whl",
+                    "sha256": "5ff3f5232b19fa4c5531641e480b7fad4598819f708a32eb815e6ea41c5fa313"
                 },
                 {
                     "type": "file",
