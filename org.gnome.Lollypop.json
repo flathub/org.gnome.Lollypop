@@ -124,8 +124,8 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.11.26/youtube-dl-2020.11.26.tar.gz",
-        "sha256": "fb106cd60f94fe00afee46d4e028cdca8ebff171ddfa9d4ff2a2fd5956586f7f"
+        "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.05/youtube-dl-2020.12.05.tar.gz",
+        "sha256": "15abf087a14c4b0c21336c27d9f8fd8798841f107225ded5a4fc7c8c6821ba18"
       }]
     },
     {
