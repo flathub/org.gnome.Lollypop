@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/6f/8f/457f4a5390eeae1cc3aeab89deb7724c965be841ffca6cfca9197482e470/soupsieve-2.0.1-py3-none-any.whl",
-                    "sha256": "1634eea42ab371d3d346309b93df7870a88610f0725d47528be902a0d95ecc55"
+                    "url": "https://files.pythonhosted.org/packages/02/fb/1c65691a9aeb7bd6ac2aa505b84cb8b49ac29c976411c6ab3659425e045f/soupsieve-2.1-py3-none-any.whl",
+                    "sha256": "4bb21a6ee4707bf43b61230e80740e71bfe56e55d1f1f50924b087bb2975c851"
                 },
                 {
                     "type": "file",
@@ -92,8 +92,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/02/bc/857fff709f7ce9eabdc502d6fa71f4b7e964200b1bcd00f0a2f59667d1bf/tqdm-4.53.0-py2.py3-none-any.whl",
-                    "sha256": "5ff3f5232b19fa4c5531641e480b7fad4598819f708a32eb815e6ea41c5fa313"
+                    "url": "https://files.pythonhosted.org/packages/8a/54/115f0c28a61d56674c3a5e05c46d6c3523ad196e1dcd3e2d8b119026df36/tqdm-4.54.1-py2.py3-none-any.whl",
+                    "sha256": "d4f413aecb61c9779888c64ddf0c62910ad56dcbe857d8922bb505d4dbff0df1"
                 },
                 {
                     "type": "file",
@@ -102,8 +102,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/fc/c9/f58220ac44a1592f79a343caba12f6837f9e0c04c196176a3d66338e1ea8/joblib-0.17.0-py3-none-any.whl",
-                    "sha256": "698c311779f347cf6b7e6b8a39bb682277b8ee4aba8cf9507bc0cf4cd4737b72"
+                    "url": "https://files.pythonhosted.org/packages/34/5b/bd0f0fb5564183884d8e35b81d06d7ec06a20d1a0c8b4c407f1554691dce/joblib-1.0.0-py3-none-any.whl",
+                    "sha256": "75ead23f13484a2a414874779d69ade40d4fa1abe62b222a23cd50d4bc822f6f"
                 },
                 {
                     "type": "file",
