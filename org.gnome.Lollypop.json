@@ -12,6 +12,7 @@
     "--socket=pulseaudio",
     "--device=dri",
     "--filesystem=xdg-music",
+    "--filesystem=xdg-run/gvfs",
     "--talk-name=org.gtk.vfs",
     "--talk-name=org.gtk.vfs.*",
     "--talk-name=org.freedesktop.Notifications",
