@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/2b/06/93bf1626ef36815010e971a5ce90f49919d84ab5d2fa310329f843a74bc1/Pillow-8.0.1.tar.gz",
-                    "sha256": "11c5c6e9b02c9dac08af04f093eb5a2f84857df70a7d4a6a6ad461aca803fb9e"
+                    "url": "https://files.pythonhosted.org/packages/73/59/3192bb3bc554ccbd678bdb32993928cb566dccf32f65dac65ac7e89eb311/Pillow-8.1.0.tar.gz",
+                    "sha256": "887668e792b7edbfb1d3c9d8b5d8c859269a0f0eba4dda562adb95500f60dbba"
                 }
             ]
         },
@@ -78,8 +78,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b5/d9/514045c4461109e138b3ef76a0c113d5ff698b0b94c28caa0666805b6015/pylast-4.0.0-py3-none-any.whl",
-                    "sha256": "745eab1be2bf70599f61abb4f11d48edcc2073f0dd3b3003c82f1ec72dec457d"
+                    "url": "https://files.pythonhosted.org/packages/80/1c/e9014f7732b9cdc0b5b7c3295f9b10337d87caa5f32abbe64ab22b6c5401/pylast-4.1.0-py3-none-any.whl",
+                    "sha256": "a0fe5f3baaa978c9f45957556ebc22284595db415b99cc0b7098f8f754e823c0"
                 }
             ]
         },
@@ -92,8 +92,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/05/bb/9403e1f30ed060e16835c9b275620ca89191a41ccc2b995b88efbc32dfd9/tqdm-4.55.0-py2.py3-none-any.whl",
-                    "sha256": "0cd81710de29754bf17b6fee07bdb86f956b4fa20d3078f02040f83e64309416"
+                    "url": "https://files.pythonhosted.org/packages/ac/a2/1fc6ceff232a4755fa85e2bd3aaca1145c3103b298000129381309995072/tqdm-4.55.1-py2.py3-none-any.whl",
+                    "sha256": "b8b46036fd00176d0870307123ef06bb851096964fa7fc578d789f90ce82c3e4"
                 },
                 {
                     "type": "file",
