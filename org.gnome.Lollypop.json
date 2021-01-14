@@ -107,8 +107,8 @@
     ],
     "sources": [{
         "type" : "archive",
-            "url" : "https://download.gnome.org/sources/libhandy/1.0/libhandy-1.0.2.tar.xz",
-            "sha256" : "3ad78d0594165c7e8150f662506d386552825e693aa3679744af96bd94dc1c2d"
+            "url" : "https://download.gnome.org/sources/libhandy/1.0/libhandy-1.0.3.tar.xz",
+            "sha256" : "559bb3acc2c362488917eb72ed25bdc181f4ae26ac94d177634cc5d34c867f7a"
         }]
     },
     {
@@ -125,8 +125,8 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.01.03/youtube-dl-2021.01.03.tar.gz",
-        "sha256": "91de98ce1ad5d53c912eb810dd747ed30825dbf7eacb09a385ce227232eb1163"
+        "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.01.08/youtube-dl-2021.01.08.tar.gz",
+        "sha256": "7340448a90ac82dfb2b1b6569f08bd87552b9b1647a81eb735e11dd6d30607cd"
       }]
     },
     {
@@ -135,8 +135,8 @@
       "sources": [{
         "type": "git",
         "url": "https://gitlab.gnome.org/World/lollypop.git",
-        "tag": "1.4.8",
-        "commit": "9f1082f59ca2bd7ef817858a59d93bab08a3f7ed"
+        "tag": "1.4.9",
+        "commit": "99d5aaf24c8b2cfe0c0cd81d0cdc0bbb2ed77d1c"
       }]
     }
   ]
