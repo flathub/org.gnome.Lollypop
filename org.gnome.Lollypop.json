@@ -5,6 +5,7 @@
   "sdk": "org.gnome.Sdk",
   "command": "lollypop",
   "finish-args": [
+    "--require-version=1.8.0",
     "--share=ipc",
     "--share=network",
     "--socket=x11",
