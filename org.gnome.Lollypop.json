@@ -125,8 +125,8 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.02.04.1/youtube-dl-2021.02.04.1.tar.gz",
-        "sha256": "0a4b3865ab0471d26c5977f1390b555e4e222c1cfff5bed9e2f52fd128bdc866"
+        "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.02.22/youtube-dl-2021.02.22.tar.gz",
+        "sha256": "fd605dd76b6e46179bd2eed6905537bebffdc72732b578db21d3074bb19b44a6"
       }]
     },
     {

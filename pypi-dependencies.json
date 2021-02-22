@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/02/fb/1c65691a9aeb7bd6ac2aa505b84cb8b49ac29c976411c6ab3659425e045f/soupsieve-2.1-py3-none-any.whl",
-                    "sha256": "4bb21a6ee4707bf43b61230e80740e71bfe56e55d1f1f50924b087bb2975c851"
+                    "url": "https://files.pythonhosted.org/packages/41/e7/3617a4b988ed7744743fb0dbba5aa0a6e3f95a9557b43f8c4740d296b48a/soupsieve-2.2-py3-none-any.whl",
+                    "sha256": "d3a5ea5b350423f47d07639f74475afedad48cf41c0ad7a82ca13a3928af34f6"
                 },
                 {
                     "type": "file",
@@ -92,8 +92,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/80/02/8f8880a4fd6625461833abcf679d4c12a44c76f9925f92bf212bb6cefaad/tqdm-4.56.0-py2.py3-none-any.whl",
-                    "sha256": "4621f6823bab46a9cc33d48105753ccbea671b68bab2c50a9f0be23d4065cb5a"
+                    "url": "https://files.pythonhosted.org/packages/d9/13/f3f815bb73804a8af9cfbb6f084821c037109108885f46131045e8cf044e/tqdm-4.57.0-py2.py3-none-any.whl",
+                    "sha256": "70657337ec104eb4f3fb229285358f23f045433f6aea26846cdd55f0fd68945c"
                 },
                 {
                     "type": "file",
@@ -102,8 +102,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/34/5b/bd0f0fb5564183884d8e35b81d06d7ec06a20d1a0c8b4c407f1554691dce/joblib-1.0.0-py3-none-any.whl",
-                    "sha256": "75ead23f13484a2a414874779d69ade40d4fa1abe62b222a23cd50d4bc822f6f"
+                    "url": "https://files.pythonhosted.org/packages/55/85/70c6602b078bd9e6f3da4f467047e906525c355a4dacd4f71b97a35d9897/joblib-1.0.1-py3-none-any.whl",
+                    "sha256": "feeb1ec69c4d45129954f1b7034954241eedfd6ba39b5e9e4b6883be3332d5e5"
                 },
                 {
                     "type": "file",
