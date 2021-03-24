@@ -1,7 +1,7 @@
 {
   "app-id": "org.gnome.Lollypop",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.38",
+  "runtime-version": "40",
   "sdk": "org.gnome.Sdk",
   "command": "lollypop",
   "finish-args": [
@@ -98,20 +98,6 @@
       ]
     },
     {
-    "name": "libhandy",
-    "buildsystem": "meson",
-    "config-opts": [
-        "-Dglade_catalog=disabled",
-        "-Dtests=false",
-        "-Dexamples=false"
-    ],
-    "sources": [{
-        "type" : "archive",
-            "url" : "https://download.gnome.org/sources/libhandy/1.0/libhandy-1.0.3.tar.xz",
-            "sha256" : "559bb3acc2c362488917eb72ed25bdc181f4ae26ac94d177634cc5d34c867f7a"
-        }]
-    },
-    {
       "name": "youtube-dl",
       "buildsystem": "simple",
       "build-commands": [
@@ -125,8 +111,8 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.03.14/youtube-dl-2021.03.14.tar.gz",
-        "sha256": "a3d9975d4c8e9133f84ca3f554125cd2e03600efeca35ea03a613783932307ae"
+        "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.03.25/youtube-dl-2021.03.25.tar.gz",
+        "sha256": "a303cfd327938e3f15890099be79958cc17d536d1f985301d5462e487af3485f"
       }]
     },
     {
@@ -135,8 +121,8 @@
       "sources": [{
         "type": "git",
         "url": "https://gitlab.gnome.org/World/lollypop.git",
-        "tag": "1.4.17",
-        "commit": "b697796059a7ffd4bf7d41619214df76c7a51903"
+        "tag": "1.4.18",
+        "commit": "31ad783bc9c87415a04d55fac02b39ff724c9746"
       }]
     }
   ]
