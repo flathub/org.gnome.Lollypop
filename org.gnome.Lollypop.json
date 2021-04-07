@@ -111,8 +111,8 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.03.25/youtube-dl-2021.03.25.tar.gz",
-        "sha256": "a303cfd327938e3f15890099be79958cc17d536d1f985301d5462e487af3485f"
+        "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.04.07/youtube-dl-2021.04.07.tar.gz",
+        "sha256": "f5080aa885672628d63f4a3e0ff0976437b4ff2caef91321fc23cbf60c0da509"
       }]
     },
     {
@@ -121,8 +121,8 @@
       "sources": [{
         "type": "git",
         "url": "https://gitlab.gnome.org/World/lollypop.git",
-        "tag": "1.4.18",
-        "commit": "31ad783bc9c87415a04d55fac02b39ff724c9746"
+        "tag": "1.4.19",
+        "commit": "5f99d01878af7693c95a01976d7bfb97c81fdb92"
       }]
     }
   ]
