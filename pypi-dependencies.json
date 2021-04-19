@@ -97,8 +97,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/d2/3d/fa76db83bf75c4f8d338c2fd15c8d33fdd7ad23a9b5e57eb6c5de26b430e/click-7.1.2-py2.py3-none-any.whl",
-                    "sha256": "dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"
+                    "url": "https://files.pythonhosted.org/packages/55/85/70c6602b078bd9e6f3da4f467047e906525c355a4dacd4f71b97a35d9897/joblib-1.0.1-py3-none-any.whl",
+                    "sha256": "feeb1ec69c4d45129954f1b7034954241eedfd6ba39b5e9e4b6883be3332d5e5"
                 },
                 {
                     "type": "file",
@@ -107,13 +107,13 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/55/85/70c6602b078bd9e6f3da4f467047e906525c355a4dacd4f71b97a35d9897/joblib-1.0.1-py3-none-any.whl",
-                    "sha256": "feeb1ec69c4d45129954f1b7034954241eedfd6ba39b5e9e4b6883be3332d5e5"
+                    "url": "https://files.pythonhosted.org/packages/d2/3d/fa76db83bf75c4f8d338c2fd15c8d33fdd7ad23a9b5e57eb6c5de26b430e/click-7.1.2-py2.py3-none-any.whl",
+                    "sha256": "dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/98/06/de681159e6750d0a215c2126e784504e177896afddf5a68cba42ebe42355/nltk-3.6-py3-none-any.whl",
-                    "sha256": "718de6908f538db19a77f96b9e6f5f586b0892d7de5eea32e71f2a2535ed8657"
+                    "url": "https://files.pythonhosted.org/packages/8c/1c/c0981ef85165eb739c10f2b24d7729cef066b2bc220fbd1dd0d3c67df39a/nltk-3.6.1-py3-none-any.whl",
+                    "sha256": "1235660f52ab10fda34d5277096724747f767b2903e1c0c4e14bde013552c9ba"
                 },
                 {
                     "type": "file",
