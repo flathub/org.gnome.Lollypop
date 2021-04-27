@@ -112,8 +112,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/8c/1c/c0981ef85165eb739c10f2b24d7729cef066b2bc220fbd1dd0d3c67df39a/nltk-3.6.1-py3-none-any.whl",
-                    "sha256": "1235660f52ab10fda34d5277096724747f767b2903e1c0c4e14bde013552c9ba"
+                    "url": "https://files.pythonhosted.org/packages/5e/37/9532ddd4b1bbb619333d5708aaad9bf1742f051a664c3c6fa6632a105fd8/nltk-3.6.2-py3-none-any.whl",
+                    "sha256": "240e23ab1ab159ef9940777d30c7c72d7e76d91877099218a7585370c11f6b9e"
                 },
                 {
                     "type": "file",
