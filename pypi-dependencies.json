@@ -78,8 +78,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/a1/7c/7124c6dcaecbf8653d6b2719d2931feac1115a55b710e166d10712a5a9c7/pylast-4.2.0-py3-none-any.whl",
-                    "sha256": "18babe2d534d9339e130a5865c8578b4f50d20a5f82b2941c63c98e4d4420710"
+                    "url": "https://files.pythonhosted.org/packages/f1/95/85c538cc03705e69e0d43eaab5b989dc7c7fae12e681f817804cdb1b3f23/pylast-4.2.1-py3-none-any.whl",
+                    "sha256": "b3170adcd68c52ab836b376a3004a1d79b31a80ddbe4a44cee3308a59fe8c244"
                 }
             ]
         },
@@ -92,6 +92,11 @@
             "sources": [
                 {
                     "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/72/8a/34efae5cf9924328a8f34eeb2fdaae14c011462d9f0e3fcded48e1266d1c/tqdm-4.60.0-py2.py3-none-any.whl",
+                    "sha256": "daec693491c52e9498632dfbe9ccfc4882a557f5fa08982db1b4d3adbe0887c3"
+                },
+                {
+                    "type": "file",
                     "url": "https://files.pythonhosted.org/packages/38/3f/4c42a98c9ad7d08c16e7d23b2194a0e4f3b2914662da8bc88986e4e6de1f/regex-2021.4.4.tar.gz",
                     "sha256": "52ba3d3f9b942c49d7e4bc105bb28551c44065f139a65062ab7912bef10c9afb"
                 },
@@ -102,13 +107,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/72/8a/34efae5cf9924328a8f34eeb2fdaae14c011462d9f0e3fcded48e1266d1c/tqdm-4.60.0-py2.py3-none-any.whl",
-                    "sha256": "daec693491c52e9498632dfbe9ccfc4882a557f5fa08982db1b4d3adbe0887c3"
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/d2/3d/fa76db83bf75c4f8d338c2fd15c8d33fdd7ad23a9b5e57eb6c5de26b430e/click-7.1.2-py2.py3-none-any.whl",
-                    "sha256": "dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"
+                    "url": "https://files.pythonhosted.org/packages/80/11/597f9102867dc0972b698972f05f50925f586639e57beba4db352029e8f9/click-8.0.0-py3-none-any.whl",
+                    "sha256": "e90e62ced43dc8105fb9a26d62f0d9340b5c8db053a814e25d95c19873ae87db"
                 },
                 {
                     "type": "file",
