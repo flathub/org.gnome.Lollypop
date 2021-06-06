@@ -45,8 +45,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/9d/6e/499d6a6db416eb3cdf0e57762a269908e4ab6638a75a90972afc34885b91/pycairo-1.20.0.tar.gz",
-                    "sha256": "5695a10cb7f9ae0d01f665b56602a845b0a8cb17e2123bfece10c2e58552468c"
+                    "url": "https://files.pythonhosted.org/packages/bc/3f/64e6e066d163fbcf13213f9eeda0fc83376243335ea46a66cefd70d62e8f/pycairo-1.20.1.tar.gz",
+                    "sha256": "1ee72b035b21a475e1ed648e26541b04e5d7e753d75ca79de8c583b25785531b"
                 },
                 {
                     "type": "file",
@@ -64,8 +64,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/9d/6e/499d6a6db416eb3cdf0e57762a269908e4ab6638a75a90972afc34885b91/pycairo-1.20.0.tar.gz",
-                    "sha256": "5695a10cb7f9ae0d01f665b56602a845b0a8cb17e2123bfece10c2e58552468c"
+                    "url": "https://files.pythonhosted.org/packages/bc/3f/64e6e066d163fbcf13213f9eeda0fc83376243335ea46a66cefd70d62e8f/pycairo-1.20.1.tar.gz",
+                    "sha256": "1ee72b035b21a475e1ed648e26541b04e5d7e753d75ca79de8c583b25785531b"
                 }
             ]
         },
@@ -92,8 +92,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/72/8a/34efae5cf9924328a8f34eeb2fdaae14c011462d9f0e3fcded48e1266d1c/tqdm-4.60.0-py2.py3-none-any.whl",
-                    "sha256": "daec693491c52e9498632dfbe9ccfc4882a557f5fa08982db1b4d3adbe0887c3"
+                    "url": "https://files.pythonhosted.org/packages/42/d7/f357d98e9b50346bcb6095fe3ad205d8db3174eb5edb03edfe7c4099576d/tqdm-4.61.0-py2.py3-none-any.whl",
+                    "sha256": "736524215c690621b06fc89d0310a49822d75e599fcd0feb7cc742b98d692493"
                 },
                 {
                     "type": "file",
@@ -107,8 +107,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/80/11/597f9102867dc0972b698972f05f50925f586639e57beba4db352029e8f9/click-8.0.0-py3-none-any.whl",
-                    "sha256": "e90e62ced43dc8105fb9a26d62f0d9340b5c8db053a814e25d95c19873ae87db"
+                    "url": "https://files.pythonhosted.org/packages/76/0a/b6c5f311e32aeb3b406e03c079ade51e905ea630fc19d1262a46249c1c86/click-8.0.1-py3-none-any.whl",
+                    "sha256": "fba402a4a47334742d782209a7c79bc448911afe1149d07bdabdf480b3e2f4b6"
                 },
                 {
                     "type": "file",
