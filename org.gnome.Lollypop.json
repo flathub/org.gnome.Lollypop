@@ -47,11 +47,13 @@
         "*.la",
         "/share/gtk-doc"
       ],
-      "sources": [{
-        "type": "archive",
-        "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.16.2.tar.xz",
-        "sha256": "5500415b865e8b62775d4742cbb9f37146a50caecfc0e7a6fc0160d3c560fbca"
-      }]
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.16.2.tar.xz",
+          "sha256": "5500415b865e8b62775d4742cbb9f37146a50caecfc0e7a6fc0160d3c560fbca"
+        }
+      ]
     },
     {
       "name": "gst-python",
@@ -59,16 +61,18 @@
       "config-opts": [
         "-Dpygi-overrides-dir=/app/lib/python3.8/site-packages/gi/overrides/"
       ],
-      "sources": [{
-        "type": "git",
-        "branch": "1.16.2",
-        "url": "https://gitlab.freedesktop.org/gstreamer/gst-python.git",
-        "commit": "5343aeb4151cfca54aa024b53e0cc4e02a27dacf"
-      },
-      {
-        "type": "patch",
-        "path": "gst-python.patch"
-      }]
+      "sources": [
+        {
+          "type": "git",
+          "branch": "1.16.2",
+          "url": "https://gitlab.freedesktop.org/gstreamer/gst-python.git",
+          "commit": "5343aeb4151cfca54aa024b53e0cc4e02a27dacf"
+        },
+        {
+          "type": "patch",
+          "path": "gst-python.patch"
+        }
+      ]
     },
     {
       "name": "gmime",
@@ -79,20 +83,24 @@
         "*.la",
         "/share/gtk-doc"
       ],
-      "sources": [{
-        "type": "archive",
-        "url": "https://download.gnome.org/sources/gmime/3.2/gmime-3.2.7.tar.xz",
-        "sha256": "2aea96647a468ba2160a64e17c6dc6afe674ed9ac86070624a3f584c10737d44"
-      }]
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://download.gnome.org/sources/gmime/3.2/gmime-3.2.7.tar.xz",
+          "sha256": "2aea96647a468ba2160a64e17c6dc6afe674ed9ac86070624a3f584c10737d44"
+        }
+      ]
     },
     {
       "name": "totem-pl-parser",
       "buildsystem": "meson",
-      "sources": [{
-        "type": "archive",
-        "url": "https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.5.tar.xz",
-        "sha256": "5370de46f2e848221779275479b96ac39115b1efd2b0293d4afa87e22c8c528c"
-      }],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.5.tar.xz",
+          "sha256": "5370de46f2e848221779275479b96ac39115b1efd2b0293d4afa87e22c8c528c"
+        }
+      ],
       "cleanup": [
         "/include",
         "/share/gtk-doc"
@@ -110,21 +118,29 @@
         "/app/lib/python*/site-packages/easy-install.pth",
         "/app/lib/python*/site-packages/setuptools.pth"
       ],
-      "sources": [{
-        "type": "archive",
-        "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.06.06/youtube-dl-2021.06.06.tar.gz",
-        "sha256": "3ccb0e4db9fd172338ed1c32bae0be2f716458dca4143e55732ff55260b20ac3"
-      }]
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.06.06/youtube-dl-2021.06.06.tar.gz",
+          "sha256": "3ccb0e4db9fd172338ed1c32bae0be2f716458dca4143e55732ff55260b20ac3"
+        }
+      ]
     },
     {
       "name": "lollypop",
       "buildsystem": "meson",
-      "sources": [{
-        "type": "git",
-        "url": "https://gitlab.gnome.org/World/lollypop.git",
-        "tag": "1.4.19",
-        "commit": "5f99d01878af7693c95a01976d7bfb97c81fdb92"
-      }]
+      "sources": [
+        {
+          "type": "git",
+          "url": "https://gitlab.gnome.org/World/lollypop.git",
+          "tag": "1.4.19",
+          "commit": "5f99d01878af7693c95a01976d7bfb97c81fdb92",
+          "x-checker-data": {
+            "type": "git",
+            "tag-pattern": "^([\\d.]+)$"
+          }
+        }
+      ]
     }
   ]
 }
