@@ -50,8 +50,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.16.2.tar.xz",
-          "sha256": "5500415b865e8b62775d4742cbb9f37146a50caecfc0e7a6fc0160d3c560fbca"
+          "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.16.3.tar.xz",
+          "sha256": "403c21688065f41e53008874402b5c07832567cc1309a60df597eab7ff5843f0"
         }
       ]
     },
@@ -122,7 +122,12 @@
         {
           "type": "archive",
           "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.06.06/youtube-dl-2021.06.06.tar.gz",
-          "sha256": "3ccb0e4db9fd172338ed1c32bae0be2f716458dca4143e55732ff55260b20ac3"
+          "sha256": "3ccb0e4db9fd172338ed1c32bae0be2f716458dca4143e55732ff55260b20ac3",
+          "x-checker-data": {
+            "type": "anitya",
+            "project-id": 5292,
+            "url-template": "https://github.com/ytdl-org/youtube-dl/releases/download/$version/youtube-dl-$version.tar.gz"
+          }
         }
       ]
     },
