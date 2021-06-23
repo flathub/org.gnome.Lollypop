@@ -1,151 +1,148 @@
 {
-  "app-id": "org.gnome.Lollypop",
-  "runtime": "org.gnome.Platform",
-  "runtime-version": "40",
-  "sdk": "org.gnome.Sdk",
-  "command": "lollypop",
-  "finish-args": [
-    "--share=ipc",
-    "--share=network",
-    "--socket=fallback-x11",
-    "--socket=wayland",
-    "--socket=pulseaudio",
-    "--device=dri",
-    "--filesystem=xdg-music",
-    "--filesystem=xdg-run/gvfs",
-    "--filesystem=xdg-run/gvfsd",
-    "--talk-name=org.gtk.vfs",
-    "--talk-name=org.gtk.vfs.*",
-    "--talk-name=org.freedesktop.Notifications",
-    "--talk-name=org.freedesktop.secrets",
-    "--talk-name=org.freedesktop.Flatpak",
-    "--talk-name=org.gnome.OnlineAccounts",
-    "--own-name=org.mpris.MediaPlayer2.Lollypop",
-    "--metadata=X-DConf=migrate-path=/org/gnome/Lollypop/"
-  ],
-  /* FFmpeg-full and gst-plugins-ugly required for .wma support
-   * Due to possible legal stubbornness in the USA, it can't be downloaded automatically
-   */
-  "add-extensions": {
-    "org.freedesktop.Platform.ffmpeg-full": {
-      "directory": "lib/ffmpeg",
-      "version": "20.08",
-      "add-ld-path": ".",
-      "no-autodownload": true,
-      "autodelete": false
-    }
-  },
-  "cleanup-commands": [
-    "mkdir -p /app/lib/ffmpeg"
-  ],
-  "modules": [
-    "pypi-dependencies.json",
-    {
-      "name": "gst-plugins-ugly",
-      "buildsystem": "meson",
-      "cleanup": [
-        "*.la",
-        "/share/gtk-doc"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.16.3.tar.xz",
-          "sha256": "403c21688065f41e53008874402b5c07832567cc1309a60df597eab7ff5843f0"
+    "app-id": "org.gnome.Lollypop",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "40",
+    "sdk": "org.gnome.Sdk",
+    "command": "lollypop",
+    "finish-args": [
+        "--share=ipc",
+        "--share=network",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--socket=pulseaudio",
+        "--device=dri",
+        "--filesystem=xdg-music",
+        "--filesystem=xdg-run/gvfs",
+        "--filesystem=xdg-run/gvfsd",
+        "--talk-name=org.gtk.vfs",
+        "--talk-name=org.gtk.vfs.*",
+        "--talk-name=org.freedesktop.Notifications",
+        "--talk-name=org.freedesktop.secrets",
+        "--talk-name=org.freedesktop.Flatpak",
+        "--talk-name=org.gnome.OnlineAccounts",
+        "--own-name=org.mpris.MediaPlayer2.Lollypop",
+        "--metadata=X-DConf=migrate-path=/org/gnome/Lollypop/"
+    ],
+    "add-extensions": {
+        "org.freedesktop.Platform.ffmpeg-full": {
+            "directory": "lib/ffmpeg",
+            "version": "20.08",
+            "add-ld-path": ".",
+            "no-autodownload": true,
+            "autodelete": false
         }
-      ]
     },
-    {
-      "name": "gst-python",
-      "buildsystem": "meson",
-      "config-opts": [
-        "-Dpygi-overrides-dir=/app/lib/python3.8/site-packages/gi/overrides/"
-      ],
-      "sources": [
+    "cleanup-commands": [
+        "mkdir -p /app/lib/ffmpeg"
+    ],
+    "modules": [
+        "pypi-dependencies.json",
         {
-          "type": "git",
-          "branch": "1.16.2",
-          "url": "https://gitlab.freedesktop.org/gstreamer/gst-python.git",
-          "commit": "5343aeb4151cfca54aa024b53e0cc4e02a27dacf"
+            "name": "gst-plugins-ugly",
+            "buildsystem": "meson",
+            "cleanup": [
+                "*.la",
+                "/share/gtk-doc"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.16.3.tar.xz",
+                    "sha256": "403c21688065f41e53008874402b5c07832567cc1309a60df597eab7ff5843f0"
+                }
+            ]
         },
         {
-          "type": "patch",
-          "path": "gst-python.patch"
-        }
-      ]
-    },
-    {
-      "name": "gmime",
-      "config-opts": [
-        "--disable-gtk-doc"
-      ],
-      "cleanup": [
-        "*.la",
-        "/share/gtk-doc"
-      ],
-      "sources": [
+            "name": "gst-python",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dpygi-overrides-dir=/app/lib/python3.8/site-packages/gi/overrides/"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "branch": "1.16.2",
+                    "url": "https://gitlab.freedesktop.org/gstreamer/gst-python.git",
+                    "commit": "5343aeb4151cfca54aa024b53e0cc4e02a27dacf"
+                },
+                {
+                    "type": "patch",
+                    "path": "gst-python.patch"
+                }
+            ]
+        },
         {
-          "type": "archive",
-          "url": "https://download.gnome.org/sources/gmime/3.2/gmime-3.2.7.tar.xz",
-          "sha256": "2aea96647a468ba2160a64e17c6dc6afe674ed9ac86070624a3f584c10737d44"
-        }
-      ]
-    },
-    {
-      "name": "totem-pl-parser",
-      "buildsystem": "meson",
-      "sources": [
+            "name": "gmime",
+            "config-opts": [
+                "--disable-gtk-doc"
+            ],
+            "cleanup": [
+                "*.la",
+                "/share/gtk-doc"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/gmime/3.2/gmime-3.2.7.tar.xz",
+                    "sha256": "2aea96647a468ba2160a64e17c6dc6afe674ed9ac86070624a3f584c10737d44"
+                }
+            ]
+        },
         {
-          "type": "archive",
-          "url": "https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.5.tar.xz",
-          "sha256": "5370de46f2e848221779275479b96ac39115b1efd2b0293d4afa87e22c8c528c"
-        }
-      ],
-      "cleanup": [
-        "/include",
-        "/share/gtk-doc"
-      ]
-    },
-    {
-      "name": "youtube-dl",
-      "buildsystem": "simple",
-      "build-commands": [
-        "python3 setup.py install --prefix=/app"
-      ],
-      "ensure-writable": [
-        "/lib/python*/site-packages/easy-install.pth",
-        "/lib/python*/site-packages/setuptools.pth",
-        "/app/lib/python*/site-packages/easy-install.pth",
-        "/app/lib/python*/site-packages/setuptools.pth"
-      ],
-      "sources": [
+            "name": "totem-pl-parser",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.5.tar.xz",
+                    "sha256": "5370de46f2e848221779275479b96ac39115b1efd2b0293d4afa87e22c8c528c"
+                }
+            ],
+            "cleanup": [
+                "/include",
+                "/share/gtk-doc"
+            ]
+        },
         {
-          "type": "archive",
-          "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.06.06/youtube-dl-2021.06.06.tar.gz",
-          "sha256": "3ccb0e4db9fd172338ed1c32bae0be2f716458dca4143e55732ff55260b20ac3",
-          "x-checker-data": {
-            "type": "anitya",
-            "project-id": 5292,
-            "url-template": "https://github.com/ytdl-org/youtube-dl/releases/download/$version/youtube-dl-$version.tar.gz"
-          }
-        }
-      ]
-    },
-    {
-      "name": "lollypop",
-      "buildsystem": "meson",
-      "sources": [
+            "name": "youtube-dl",
+            "buildsystem": "simple",
+            "build-commands": [
+                "python3 setup.py install --prefix=/app"
+            ],
+            "ensure-writable": [
+                "/lib/python*/site-packages/easy-install.pth",
+                "/lib/python*/site-packages/setuptools.pth",
+                "/app/lib/python*/site-packages/easy-install.pth",
+                "/app/lib/python*/site-packages/setuptools.pth"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.06.06/youtube-dl-2021.06.06.tar.gz",
+                    "sha256": "3ccb0e4db9fd172338ed1c32bae0be2f716458dca4143e55732ff55260b20ac3",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 5292,
+                        "url-template": "https://github.com/ytdl-org/youtube-dl/releases/download/$version/youtube-dl-$version.tar.gz"
+                    }
+                }
+            ]
+        },
         {
-          "type": "git",
-          "url": "https://gitlab.gnome.org/World/lollypop.git",
-          "tag": "1.4.19",
-          "commit": "5f99d01878af7693c95a01976d7bfb97c81fdb92",
-          "x-checker-data": {
-            "type": "git",
-            "tag-pattern": "^([\\d.]+)$"
-          }
+            "name": "lollypop",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/World/lollypop.git",
+                    "tag": "1.4.20",
+                    "commit": "7cd766b798a2c89ad460c87547333ee4e52803ff",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
