@@ -23,9 +23,6 @@
         "--own-name=org.mpris.MediaPlayer2.Lollypop",
         "--metadata=X-DConf=migrate-path=/org/gnome/Lollypop/"
     ],
-    /* FFmpeg-full and gst-plugins-ugly required for .wma support
-    * Due to possible legal stubbornness in the USA, it can't be downloaded automatically
-    */
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
             "directory": "lib/ffmpeg",
@@ -138,8 +135,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/lollypop.git",
-                    "tag": "1.4.20",
-                    "commit": "7cd766b798a2c89ad460c87547333ee4e52803ff",
+                    "tag": "1.4.22",
+                    "commit": "15e7dc899502c5ed1f8e50e8c2c9224a3236f8e2",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
