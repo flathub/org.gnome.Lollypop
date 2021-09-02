@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/21/23/af6bac2a601be6670064a817273d4190b79df6f74d8012926a39bc7aa77f/Pillow-8.2.0.tar.gz",
-                    "sha256": "a787ab10d7bb5494e5f76536ac460741788f1fbce851068d73a87ca7c35fc3e1"
+                    "url": "https://files.pythonhosted.org/packages/8f/7d/1e9c2d8989c209edfd10f878da1af956059a1caab498e5bc34fa11b83f71/Pillow-8.3.1.tar.gz",
+                    "sha256": "2cac53839bfc5cece8fdbe7f084d5e3ee61e1303cccc86511d351adcb9e2c792"
                 }
             ]
         },
@@ -92,13 +92,13 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b4/20/9f1e974bb4761128fc0d0a32813eaa92827309b1756c4b892d28adfb4415/tqdm-4.61.1-py2.py3-none-any.whl",
-                    "sha256": "aa0c29f03f298951ac6318f7c8ce584e48fa22ec26396e6411e43d038243bdb2"
+                    "url": "https://files.pythonhosted.org/packages/9c/05/cf212f57daa0eb6106fa668a04d74d932e9881fd4a22f322ea1dadb5aba0/tqdm-4.62.2-py2.py3-none-any.whl",
+                    "sha256": "80aead664e6c1672c4ae20dc50e1cdc5e20eeff9b14aa23ecd426375b28be588"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/38/3f/4c42a98c9ad7d08c16e7d23b2194a0e4f3b2914662da8bc88986e4e6de1f/regex-2021.4.4.tar.gz",
-                    "sha256": "52ba3d3f9b942c49d7e4bc105bb28551c44065f139a65062ab7912bef10c9afb"
+                    "url": "https://files.pythonhosted.org/packages/15/bd/88d793c2e39b1e91c070bf4d1317db599b1c22efbf6bd194bb568064af21/regex-2021.8.28.tar.gz",
+                    "sha256": "f585cbbeecb35f35609edccb95efd95a3e35824cd7752b586503f7e6087303f1"
                 },
                 {
                     "type": "file",
