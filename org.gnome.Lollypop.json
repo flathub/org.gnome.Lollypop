@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Lollypop",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "40",
+    "runtime-version": "41",
     "sdk": "org.gnome.Sdk",
     "command": "lollypop",
     "finish-args": [
@@ -26,7 +26,7 @@
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
             "directory": "lib/ffmpeg",
-            "version": "20.08",
+            "version": "21.08",
             "add-ld-path": ".",
             "no-autodownload": true,
             "autodelete": false
@@ -49,25 +49,6 @@
                     "type": "archive",
                     "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.16.3.tar.xz",
                     "sha256": "403c21688065f41e53008874402b5c07832567cc1309a60df597eab7ff5843f0"
-                }
-            ]
-        },
-        {
-            "name": "gst-python",
-            "buildsystem": "meson",
-            "config-opts": [
-                "-Dpygi-overrides-dir=/app/lib/python3.8/site-packages/gi/overrides/"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "branch": "1.16.2",
-                    "url": "https://gitlab.freedesktop.org/gstreamer/gst-python.git",
-                    "commit": "5343aeb4151cfca54aa024b53e0cc4e02a27dacf"
-                },
-                {
-                    "type": "patch",
-                    "path": "gst-python.patch"
                 }
             ]
         },
