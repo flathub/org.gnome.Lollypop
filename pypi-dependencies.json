@@ -17,8 +17,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl",
-                    "sha256": "fff47e031e34ec82bf17e00da8f592fe7de69aeea38be00523c04623c04fb666"
+                    "url": "https://files.pythonhosted.org/packages/69/bf/f0f194d3379d3f3347478bd267f754fc68c11cbf2fe302a6ab69447b1417/beautifulsoup4-4.10.0-py3-none-any.whl",
+                    "sha256": "9a315ce70049920ea4572a4055bc4bd700c940521d36fc858205ad4fcde149bf"
                 }
             ]
         },
@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/8f/7d/1e9c2d8989c209edfd10f878da1af956059a1caab498e5bc34fa11b83f71/Pillow-8.3.1.tar.gz",
-                    "sha256": "2cac53839bfc5cece8fdbe7f084d5e3ee61e1303cccc86511d351adcb9e2c792"
+                    "url": "https://files.pythonhosted.org/packages/90/d4/a7c9b6c5d176654aa3dbccbfd0be4fd3a263355dc24122a5f1937bdc2689/Pillow-8.3.2.tar.gz",
+                    "sha256": "dde3f3ed8d00c72631bc19cbfff8ad3b6215062a5eed402381ad365f82f0c18c"
                 }
             ]
         },
@@ -50,8 +50,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/51/2f/4d5d5afb7000b9151e33952b59163c9389bd867ac6fe85d62f85831fa061/PyGObject-3.40.1.tar.gz",
-                    "sha256": "6fb599aa59ceb9dd05fafb0d72b3862943e7d5e85c8ef6c74856bc6d4321cbab"
+                    "url": "https://files.pythonhosted.org/packages/cc/72/48cfdd7a0caf3c27f392d2657731ac6f7c3c1c0a60bfeba3e1ba9ffa7ba9/PyGObject-3.42.0.tar.gz",
+                    "sha256": "b9803991ec0b0b4175e81fee0ad46090fa7af438fe169348a9b18ae53447afcd"
                 }
             ]
         },
@@ -92,8 +92,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/9c/05/cf212f57daa0eb6106fa668a04d74d932e9881fd4a22f322ea1dadb5aba0/tqdm-4.62.2-py2.py3-none-any.whl",
-                    "sha256": "80aead664e6c1672c4ae20dc50e1cdc5e20eeff9b14aa23ecd426375b28be588"
+                    "url": "https://files.pythonhosted.org/packages/63/f3/b7a1b8e40fd1bd049a34566eb353527bb9b8e9b98f8b6cf803bb64d8ce95/tqdm-4.62.3-py2.py3-none-any.whl",
+                    "sha256": "8dd278a422499cd6b727e6ae4061c40b48fce8b76d1ccbf5d34fca9b7f925b0c"
                 },
                 {
                     "type": "file",
@@ -112,8 +112,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/5e/37/9532ddd4b1bbb619333d5708aaad9bf1742f051a664c3c6fa6632a105fd8/nltk-3.6.2-py3-none-any.whl",
-                    "sha256": "240e23ab1ab159ef9940777d30c7c72d7e76d91877099218a7585370c11f6b9e"
+                    "url": "https://files.pythonhosted.org/packages/5e/a0/04763ddc4bf3bac6f3bd38934c36a0f3ac30e48c39a51b3ec5649ed17374/nltk-3.6.3-py3-none-any.whl",
+                    "sha256": "665225d585367f64a73ff1cb436964b425304dc772406653412e19dfe0157688"
                 },
                 {
                     "type": "file",
