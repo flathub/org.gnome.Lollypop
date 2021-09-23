@@ -28,7 +28,6 @@
             "directory": "lib/ffmpeg",
             "version": "21.08",
             "add-ld-path": ".",
-            "no-autodownload": true,
             "autodelete": false
         }
     },
