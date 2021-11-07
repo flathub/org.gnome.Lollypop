@@ -7,13 +7,13 @@
             "name": "python3-beautifulsoup4",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"beautifulsoup4\""
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"beautifulsoup4\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/36/69/d82d04022f02733bf9a72bc3b96332d360c0c5307096d76f6bb7489f7e57/soupsieve-2.2.1-py3-none-any.whl",
-                    "sha256": "c2c1c2d44f158cdbddab7824a9af8c4f83c76b1e23e049479aa432feb6c4c23b"
+                    "url": "https://files.pythonhosted.org/packages/5d/bc/df4c752a7488bb76e6b1e2dfa223455bb09616d87f8e569f9fb8c9b4ae29/soupsieve-2.3-py3-none-any.whl",
+                    "sha256": "617ffc4d0dfd39c66f4d1413a6e165663a34eca86be9b54f97b91756300ff6df"
                 },
                 {
                     "type": "file",
@@ -26,13 +26,13 @@
             "name": "python3-Pillow",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Pillow\""
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Pillow\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/90/d4/a7c9b6c5d176654aa3dbccbfd0be4fd3a263355dc24122a5f1937bdc2689/Pillow-8.3.2.tar.gz",
-                    "sha256": "dde3f3ed8d00c72631bc19cbfff8ad3b6215062a5eed402381ad365f82f0c18c"
+                    "url": "https://files.pythonhosted.org/packages/7d/2a/2fc11b54e2742db06297f7fa7f420a0e3069fdcf0e4b57dfec33f0b08622/Pillow-8.4.0.tar.gz",
+                    "sha256": "b8e2f83c56e141920c39464b852de3719dfbfb6e3c99a2d8da0edf4fb33176ed"
                 }
             ]
         },
@@ -40,7 +40,7 @@
             "name": "python3-PyGObject",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"PyGObject\""
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"PyGObject\" --no-build-isolation"
             ],
             "sources": [
                 {
@@ -59,7 +59,7 @@
             "name": "python3-pycairo",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pycairo\""
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pycairo\" --no-build-isolation"
             ],
             "sources": [
                 {
@@ -73,13 +73,13 @@
             "name": "python3-pylast",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pylast\""
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pylast\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/f1/95/85c538cc03705e69e0d43eaab5b989dc7c7fae12e681f817804cdb1b3f23/pylast-4.2.1-py3-none-any.whl",
-                    "sha256": "b3170adcd68c52ab836b376a3004a1d79b31a80ddbe4a44cee3308a59fe8c244"
+                    "url": "https://files.pythonhosted.org/packages/bf/9e/dac4c6e124dbac7e6c6165b71046e1b72a4bfa259a81724fa96f32f3a580/pylast-4.3.0-py3-none-any.whl",
+                    "sha256": "45ba09bc463d5e2e03f8ac1e7b0a98811b0aee4a4b9cebb2acdd378a9fd935c6"
                 }
             ]
         },
@@ -87,7 +87,7 @@
             "name": "python3-textblob",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"textblob\""
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"textblob\" --no-build-isolation"
             ],
             "sources": [
                 {
@@ -97,28 +97,28 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/15/bd/88d793c2e39b1e91c070bf4d1317db599b1c22efbf6bd194bb568064af21/regex-2021.8.28.tar.gz",
-                    "sha256": "f585cbbeecb35f35609edccb95efd95a3e35824cd7752b586503f7e6087303f1"
+                    "url": "https://files.pythonhosted.org/packages/3e/d5/0163eb0cfa0b673aa4fe1cd3ea9d8a81ea0f32e50807b0c295871e4aab2e/joblib-1.1.0-py2.py3-none-any.whl",
+                    "sha256": "f21f109b3c7ff9d95f8387f752d0d9c34a02aa2f7060c2135f465da0e5160ff6"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/55/85/70c6602b078bd9e6f3da4f467047e906525c355a4dacd4f71b97a35d9897/joblib-1.0.1-py3-none-any.whl",
-                    "sha256": "feeb1ec69c4d45129954f1b7034954241eedfd6ba39b5e9e4b6883be3332d5e5"
+                    "url": "https://files.pythonhosted.org/packages/48/58/c8aa6a8e62cc75f39fee1092c45d6b6ba684122697d7ce7d53f64f98a129/click-8.0.3-py3-none-any.whl",
+                    "sha256": "353f466495adaeb40b6b5f592f9f91cb22372351c84caeb068132442a4518ef3"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/76/0a/b6c5f311e32aeb3b406e03c079ade51e905ea630fc19d1262a46249c1c86/click-8.0.1-py3-none-any.whl",
-                    "sha256": "fba402a4a47334742d782209a7c79bc448911afe1149d07bdabdf480b3e2f4b6"
+                    "url": "https://files.pythonhosted.org/packages/fb/6f/c3bc1dc02343ed4baa56545f4c9ba1cdf29a5a9c9fc9bc2b0bb846246550/regex-2021.11.2.tar.gz",
+                    "sha256": "5e85dcfc5d0f374955015ae12c08365b565c6f1eaf36dd182476a4d8e5a1cdb7"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/5e/a0/04763ddc4bf3bac6f3bd38934c36a0f3ac30e48c39a51b3ec5649ed17374/nltk-3.6.3-py3-none-any.whl",
-                    "sha256": "665225d585367f64a73ff1cb436964b425304dc772406653412e19dfe0157688"
+                    "url": "https://files.pythonhosted.org/packages/aa/b8/09ac15436591cefc0adc882798d5cf629f13addae0495b20b682219e3afe/nltk-3.6.5-py3-none-any.whl",
+                    "sha256": "95fb4f577efe93af21765e9b2852235c2c6a405885da2a70f397478d94e906e0"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/60/f0/1d9bfcc8ee6b83472ec571406bd0dd51c0e6330ff1a51b2d29861d389e85/textblob-0.15.3-py2.py3-none-any.whl",
-                    "sha256": "b0eafd8b129c9b196c8128056caed891d64b7fa20ba570e1fcde438f4f7dd312"
+                    "url": "https://files.pythonhosted.org/packages/44/a4/595b66c1342a830f4ff476307c4367541cce3e361b9ee96d22a5eeeddd1d/textblob-0.17.1-py2.py3-none-any.whl",
+                    "sha256": "15546d7f309e96a3f542bee42751c8e5ce4d519d3d274ee79df2318141f0b788"
                 }
             ]
         }
