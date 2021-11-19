@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/5d/bc/df4c752a7488bb76e6b1e2dfa223455bb09616d87f8e569f9fb8c9b4ae29/soupsieve-2.3-py3-none-any.whl",
-                    "sha256": "617ffc4d0dfd39c66f4d1413a6e165663a34eca86be9b54f97b91756300ff6df"
+                    "url": "https://files.pythonhosted.org/packages/72/a6/fd01694427f1c3fcadfdc5f1de901b813b9ac756f0806ef470cfed1de281/soupsieve-2.3.1-py3-none-any.whl",
+                    "sha256": "1a3cca2617c6b38c0343ed661b1fa5de5637f257d4fe22bd9f1338010a1efefb"
                 },
                 {
                     "type": "file",
@@ -107,8 +107,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/fb/6f/c3bc1dc02343ed4baa56545f4c9ba1cdf29a5a9c9fc9bc2b0bb846246550/regex-2021.11.2.tar.gz",
-                    "sha256": "5e85dcfc5d0f374955015ae12c08365b565c6f1eaf36dd182476a4d8e5a1cdb7"
+                    "url": "https://files.pythonhosted.org/packages/97/cd/93ad08b2f97ec95da0bd860380ce0ac7481eaccc760356ee11eda369c048/regex-2021.11.10.tar.gz",
+                    "sha256": "f341ee2df0999bfdf7a95e448075effe0db212a59387de1a70690e4acb03d4c6"
                 },
                 {
                     "type": "file",
