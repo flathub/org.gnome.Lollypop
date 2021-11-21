@@ -84,26 +84,20 @@
             ]
         },
         {
-            "name": "youtube-dl",
-            "buildsystem": "simple",
-            "build-commands": [
-                "python3 setup.py install --prefix=/app"
-            ],
-            "ensure-writable": [
-                "/lib/python*/site-packages/easy-install.pth",
-                "/lib/python*/site-packages/setuptools.pth",
-                "/app/lib/python*/site-packages/easy-install.pth",
-                "/app/lib/python*/site-packages/setuptools.pth"
+            "name": "youtube-dlp",
+            "buildsystem" : "simple",
+            "build-commands" : [
+                "pip3 install --prefix=/app ."
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.06.06/youtube-dl-2021.06.06.tar.gz",
-                    "sha256": "3ccb0e4db9fd172338ed1c32bae0be2f716458dca4143e55732ff55260b20ac3",
+                    "url": "https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2021.11.10.1.tar.gz",
+                    "sha256": "b0bfe3a1e7c3a9a1e24219c36eaf8604328b29cc3560387f75506f45b78ea695",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 5292,
-                        "url-template": "https://github.com/ytdl-org/youtube-dl/releases/download/$version/youtube-dl-$version.tar.gz"
+                        "project-id": 143399,
+                        "url-template": "https://github.com/yt-dlp/yt-dlp/archive/refs/tags/$version.tar.gz"
                     }
                 }
             ]
