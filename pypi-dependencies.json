@@ -78,8 +78,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/bf/9e/dac4c6e124dbac7e6c6165b71046e1b72a4bfa259a81724fa96f32f3a580/pylast-4.3.0-py3-none-any.whl",
-                    "sha256": "45ba09bc463d5e2e03f8ac1e7b0a98811b0aee4a4b9cebb2acdd378a9fd935c6"
+                    "url": "https://files.pythonhosted.org/packages/a5/d7/f8343ac23e8efe2f2065b58bbdd06c94725058261b0101a8cad0a50ededf/pylast-4.4.0-py3-none-any.whl",
+                    "sha256": "0b525a98b2b7b4dfb62ec6a30008b0e9bd10a53ef6cc75690132dab15823b33c"
                 }
             ]
         },
@@ -112,8 +112,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/aa/b8/09ac15436591cefc0adc882798d5cf629f13addae0495b20b682219e3afe/nltk-3.6.5-py3-none-any.whl",
-                    "sha256": "95fb4f577efe93af21765e9b2852235c2c6a405885da2a70f397478d94e906e0"
+                    "url": "https://files.pythonhosted.org/packages/90/35/8848a41a983a923aa2496fbe4ee4df796c6b32b2a59f04c2b2047aafd3c3/nltk-3.6.6-py3-none-any.whl",
+                    "sha256": "69470ba480ff4408e8ea82c530c8dc9571bab899f49d4571e8c8833e0916abd0"
                 },
                 {
                     "type": "file",
