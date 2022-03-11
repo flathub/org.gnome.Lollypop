@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b0/43/3e286c93b9fa20e233d53532cc419b5aad8a468d91065dbef4c846058834/Pillow-9.0.0.tar.gz",
-                    "sha256": "ee6e2963e92762923956fe5d3479b1fdc3b76c83f290aad131a2f98c3df0593e"
+                    "url": "https://files.pythonhosted.org/packages/03/a3/f61a9a7ff7969cdef2a6e0383a346eb327495d20d25a2de5a088dbb543a6/Pillow-9.0.1.tar.gz",
+                    "sha256": "6c8bc8238a7dfdaf7a75f5ec5a663f4173f8c367e5a39f87e720495e1eed75fa"
                 }
             ]
         },
@@ -45,13 +45,13 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/bc/3f/64e6e066d163fbcf13213f9eeda0fc83376243335ea46a66cefd70d62e8f/pycairo-1.20.1.tar.gz",
-                    "sha256": "1ee72b035b21a475e1ed648e26541b04e5d7e753d75ca79de8c583b25785531b"
+                    "url": "https://files.pythonhosted.org/packages/92/a4/506564f574fa74c90b98690e8ecc8dbae1629f31fcfe0be69de45d9e1605/pycairo-1.21.0.tar.gz",
+                    "sha256": "251907f18a552df938aa3386657ff4b5a4937dde70e11aa042bc297957f4b74b"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/cc/72/48cfdd7a0caf3c27f392d2657731ac6f7c3c1c0a60bfeba3e1ba9ffa7ba9/PyGObject-3.42.0.tar.gz",
-                    "sha256": "b9803991ec0b0b4175e81fee0ad46090fa7af438fe169348a9b18ae53447afcd"
+                    "url": "https://files.pythonhosted.org/packages/9f/95/9883829e6c86097f749c4c2bbe77ab90af8dfc8df8cbf8c56124a7a7009e/PyGObject-3.30.5.tar.gz",
+                    "sha256": "ab030c81278d1ed740b5093d017608316b15fc275f901854b22bcfaf8d40c528"
                 }
             ]
         },
@@ -64,8 +64,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/bc/3f/64e6e066d163fbcf13213f9eeda0fc83376243335ea46a66cefd70d62e8f/pycairo-1.20.1.tar.gz",
-                    "sha256": "1ee72b035b21a475e1ed648e26541b04e5d7e753d75ca79de8c583b25785531b"
+                    "url": "https://files.pythonhosted.org/packages/92/a4/506564f574fa74c90b98690e8ecc8dbae1629f31fcfe0be69de45d9e1605/pycairo-1.21.0.tar.gz",
+                    "sha256": "251907f18a552df938aa3386657ff4b5a4937dde70e11aa042bc297957f4b74b"
                 }
             ]
         },
@@ -78,8 +78,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/a5/d7/f8343ac23e8efe2f2065b58bbdd06c94725058261b0101a8cad0a50ededf/pylast-4.4.0-py3-none-any.whl",
-                    "sha256": "0b525a98b2b7b4dfb62ec6a30008b0e9bd10a53ef6cc75690132dab15823b33c"
+                    "url": "https://files.pythonhosted.org/packages/01/ca/849a8f1aa722f8bb47e910fa018caf84bee1c4414370abd65241a92ebb32/pylast-4.5.0-py3-none-any.whl",
+                    "sha256": "47c3da663002f7fbacb7d561f8724cf007c22ac7c9c310c17ad987415273e7d0"
                 }
             ]
         },
@@ -92,8 +92,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/63/f3/b7a1b8e40fd1bd049a34566eb353527bb9b8e9b98f8b6cf803bb64d8ce95/tqdm-4.62.3-py2.py3-none-any.whl",
-                    "sha256": "8dd278a422499cd6b727e6ae4061c40b48fce8b76d1ccbf5d34fca9b7f925b0c"
+                    "url": "https://files.pythonhosted.org/packages/81/1c/93a2b77b97cdba15a59c3d2d03e53d3292158d1106d37f579069abd90ece/tqdm-4.63.0-py2.py3-none-any.whl",
+                    "sha256": "e643e071046f17139dea55b880dc9b33822ce21613b4a4f5ea57f202833dbc29"
                 },
                 {
                     "type": "file",
@@ -102,18 +102,18 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/48/58/c8aa6a8e62cc75f39fee1092c45d6b6ba684122697d7ce7d53f64f98a129/click-8.0.3-py3-none-any.whl",
-                    "sha256": "353f466495adaeb40b6b5f592f9f91cb22372351c84caeb068132442a4518ef3"
+                    "url": "https://files.pythonhosted.org/packages/4a/a8/0b2ced25639fb20cc1c9784de90a8c25f9504a7f18cd8b5397bd61696d7d/click-8.0.4-py3-none-any.whl",
+                    "sha256": "6a7a62563bbfabfda3a38f3023a1db4a35978c0abd76f6c9605ecd6554d6d9b1"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/4c/75/b5b60055897d78882da8bc4c94609067cf531a42726df2e44ce69e8ec7a9/regex-2022.1.18.tar.gz",
-                    "sha256": "97f32dc03a8054a4c4a5ab5d761ed4861e828b2c200febd4e46857069a483916"
+                    "url": "https://files.pythonhosted.org/packages/4f/17/21e7195da87bcdbdd4ec32fdfdc87ccd5cf97b0a18e0f08ecacbaefca284/regex-2022.3.2.tar.gz",
+                    "sha256": "79e5af1ff258bc0fe0bdd6f69bc4ae33935a898e3cbefbbccf22e88a27fa053b"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/c5/ea/84c7247f5c96c5a1b619fe822fb44052081ccfbe487a49d4c888306adec7/nltk-3.6.7-py3-none-any.whl",
-                    "sha256": "22e97be5d6c784d93a52d17860515cc50c5cfcc620b1f5c3747765041255a01e"
+                    "url": "https://files.pythonhosted.org/packages/43/0b/8298798bc5a9a007b7cae3f846a3d9a325953e0f9c238affa478b4d59324/nltk-3.7-py3-none-any.whl",
+                    "sha256": "ba3de02490308b248f9b94c8bc1ac0683e9aa2ec49ee78536d8667afb5e3eec8"
                 },
                 {
                     "type": "file",
