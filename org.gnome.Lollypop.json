@@ -94,6 +94,22 @@
             ]
         },
         {
+            "name": "libhandy",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/libhandy/1.6/libhandy-1.6.1.tar.xz",
+                    "sha256": "6eab0384404d56bd1b1fa059d9a081177778f6ae080ffc2120f28656ca7462a4",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 114486,
+                        "url-template": "https://download.gnome.org/sources/libhandy/1.6/libhandy-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "youtube-dl",
             "buildsystem": "simple",
             "build-commands": [
