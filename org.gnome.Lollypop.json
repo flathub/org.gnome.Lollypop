@@ -149,6 +149,21 @@
                     }
                 }
             ]
+        },
+        {
+            "name": "metadata-patch",
+            "buildsystem": "simple",
+            "build-commands": [
+                "ls -la",
+                "install -Dm 644 org.gnome.Lollypop.appdata.xml -t /app/share/metainfo/"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "path": "org.gnome.Lollypop.appdata.xml"
+                }
+            ]
+            
         }
     ]
 }
