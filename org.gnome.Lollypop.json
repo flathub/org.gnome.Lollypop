@@ -154,8 +154,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/lollypop.git",
-                    "tag": "1.4.29",
-                    "commit": "c782cbbca054f2212f10d669961ce127782e381f",
+                    "tag": "1.4.30",
+                    "commit": "55c5403077a630ccb91803c622f92a8e16eb8189",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
