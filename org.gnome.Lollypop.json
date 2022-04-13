@@ -52,7 +52,9 @@
                         "type": "anitya",
                         "project-id": 15187,
                         "stable-only": true,
-                        "version": "{\"<\": \"1.19\"}",
+                        "versions": {
+                            "<": "1.19"
+                        },
                         "url-template": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-$version.tar.xz"
                     }
                 }
@@ -74,7 +76,9 @@
                         "type": "anitya",
                         "project-id": 21849,
                         "stable-only": true,
-                        "version": "{\"<\": \"1.19\"}",
+                        "versions": {
+                            "<": "1.19"
+                        },
                         "url-template": "https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-$version.tar.xz"
                     }
                 }
