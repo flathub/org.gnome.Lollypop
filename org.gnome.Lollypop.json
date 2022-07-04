@@ -20,6 +20,7 @@
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.freedesktop.Flatpak",
         "--talk-name=org.gnome.OnlineAccounts",
+        "--talk-name=org.kde.kid3",
         "--own-name=org.mpris.MediaPlayer2.Lollypop",
         "--metadata=X-DConf=migrate-path=/org/gnome/Lollypop/"
     ],
@@ -164,6 +165,22 @@
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     }
+                }
+            ]
+        },
+        {
+            "name": "kid3-connect",
+            "buildsystem": "simple",
+            "build-commands": [
+                "install kid3-cli /app/bin/"
+            ],
+            "sources": [
+                {
+                    "type": "script",
+                    "dest-filename": "kid3-cli",
+                    "commands": [
+                        "flatpak-spawn --host flatpak run --command=kid3-cli org.kde.kid3 \"${@}\";"
+                    ]
                 }
             ]
         }
