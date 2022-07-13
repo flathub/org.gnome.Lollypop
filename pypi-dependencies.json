@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/43/6e/59853546226ee6200f9ba6e574d11604b60ad0754d2cbd1c8f3246b70418/Pillow-9.1.1.tar.gz",
-                    "sha256": "7502539939b53d7565f3d11d87c78e7ec900d3c72945d4ee0e2f250d598309a0"
+                    "url": "https://files.pythonhosted.org/packages/8c/92/2975b464d9926dc667020ed1abfa6276e68c3571dcb77e43347e15ee9eed/Pillow-9.2.0.tar.gz",
+                    "sha256": "75e636fd3e0fb872693f23ccb8a5ff2cd578801251f3a4f6854c6a5d437d3c04"
                 }
             ]
         },
@@ -147,8 +147,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/1a/6b/9b6b8284e88105acbcb39e71bd3bfcaffcd36c2601152ae23b00e6e04d91/regex-2022.6.2.tar.gz",
-                    "sha256": "f7b43acb2c46fb2cd506965b2d9cf4c5e64c9c612bac26c1187933c7296bf08c"
+                    "url": "https://files.pythonhosted.org/packages/52/b1/48941b5df2d73a14e067e68d9055544effc515c8242741fd7c1dd2d72101/regex-2022.7.9.tar.gz",
+                    "sha256": "601c99ac775b6c89699a48976f3dbb000b47d3ca59362c8abc9582e6d0780d91"
                 },
                 {
                     "type": "file",
