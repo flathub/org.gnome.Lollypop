@@ -83,8 +83,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/04/a2/d918dcd22354d8958fe113e1a3630137e0fc8b44859ade3063982eacd2a4/idna-3.3-py3-none-any.whl",
-                    "sha256": "84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff"
+                    "url": "https://files.pythonhosted.org/packages/fc/34/3030de6f1370931b9dbb4dad48f6ab1015ab1d32447850b9fc94e60097be/idna-3.4-py3-none-any.whl",
+                    "sha256": "90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"
                 },
                 {
                     "type": "file",
@@ -93,8 +93,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ac/80/e0df41f336f21d35befa4ff15348eb3e8b2483e131922e8427223b52e688/certifi-2022.6.15.1-py3-none-any.whl",
-                    "sha256": "43dadad18a7f168740e66944e4fa82c6611848ff9056ad910f8f7a3e46ab89e0"
+                    "url": "https://files.pythonhosted.org/packages/1d/38/fa96a426e0c0e68aabc68e896584b83ad1eec779265a028e156ce509630e/certifi-2022.9.24-py3-none-any.whl",
+                    "sha256": "90c1a32f1d68f940488354e36370f6cca89f0f106db09518524c88d6ed83f382"
                 },
                 {
                     "type": "file",
@@ -137,8 +137,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/3e/d5/0163eb0cfa0b673aa4fe1cd3ea9d8a81ea0f32e50807b0c295871e4aab2e/joblib-1.1.0-py2.py3-none-any.whl",
-                    "sha256": "f21f109b3c7ff9d95f8387f752d0d9c34a02aa2f7060c2135f465da0e5160ff6"
+                    "url": "https://files.pythonhosted.org/packages/91/d4/3b4c8e5a30604df4c7518c562d4bf0502f2fa29221459226e140cf846512/joblib-1.2.0-py3-none-any.whl",
+                    "sha256": "091138ed78f800342968c523bdde947e7a305b8594b910a0fea2ab83c3c6d385"
                 },
                 {
                     "type": "file",
@@ -147,8 +147,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/f7/e1/8b46ff54516faea4ea9469c4f5b50f2e9e73131f54d19e6827141698a822/regex-2022.8.17.tar.gz",
-                    "sha256": "5c77eab46f3a2b2cd8bbe06467df783543bf7396df431eb4a144cc4b89e9fb3c"
+                    "url": "https://files.pythonhosted.org/packages/f8/43/b85d103acc0bfb54939f801908bf83354085579e8422eeaa22c017950c02/regex-2022.9.13.tar.gz",
+                    "sha256": "f07373b6e56a6f3a0df3d75b651a278ca7bd357a796078a26a958ea1ce0588fd"
                 },
                 {
                     "type": "file",
