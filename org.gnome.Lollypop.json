@@ -126,39 +126,14 @@
             ]
         },
         {
-            "name": "youtube-dl",
-            "buildsystem": "simple",
-            "build-commands": [
-                "python3 setup.py install --prefix=/app"
-            ],
-            "ensure-writable": [
-                "/lib/python*/site-packages/easy-install.pth",
-                "/lib/python*/site-packages/setuptools.pth",
-                "/app/lib/python*/site-packages/easy-install.pth",
-                "/app/lib/python*/site-packages/setuptools.pth"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.12.17/youtube-dl-2021.12.17.tar.gz",
-                    "sha256": "9f3b99c8b778455165b4525f21505e86c7ff565f3ac319e19733d810194135df",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 5292,
-                        "url-template": "https://github.com/ytdl-org/youtube-dl/releases/download/$version/youtube-dl-$version.tar.gz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "lollypop",
             "buildsystem": "meson",
             "sources": [
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/lollypop.git",
-                    "tag": "1.4.35",
-                    "commit": "311bd3e21b8825b22bbfc397f0fcfbcf54e20b40",
+                    "tag": "1.4.36",
+                    "commit": "e3daa763ef0baa1d8679af8de6175b3d77b74e04",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
