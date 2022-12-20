@@ -45,8 +45,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.20.4.tar.xz",
-                    "sha256": "5c9ec6bab96517e438b3f9bae0ceb84d3436f3da9bbe180cf4d28e32a7251b59",
+                    "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.20.5.tar.xz",
+                    "sha256": "af67d8ba7cab230f64d0594352112c2c443e2aa36a87c35f9f98a43d11430b87",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 15187,
@@ -69,8 +69,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.20.4.tar.xz",
-                    "sha256": "a1a3f53b3604d9a04fdd0bf9a1a616c3d2dab5320489e9ecee1178e81e33a16a",
+                    "url": "https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.20.5.tar.xz",
+                    "sha256": "f431214b0754d7037adcde93c3195106196588973e5b32dcb24938805f866363",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 21849,
