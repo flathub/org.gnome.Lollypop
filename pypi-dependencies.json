@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/16/11/da8d395299ca166aa56d9436e26fe8440e5443471de16ccd9a1d06f5993a/Pillow-9.3.0.tar.gz",
-                    "sha256": "c935a22a557a560108d780f9a0fc426dd7459940dc54faa49d83249c8d3e760f"
+                    "url": "https://files.pythonhosted.org/packages/bc/07/830784e061fb94d67649f3e438ff63cfb902dec6d48ac75aeaaac7c7c30e/Pillow-9.4.0.tar.gz",
+                    "sha256": "a1c2d7780448eb93fbcc3789bf3916aa5720d942e37945f4056680317f1cd23e"
                 }
             ]
         },
@@ -98,8 +98,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/e1/74/cdce73069e021ad5913451b86c2707b027975cf302016ca557686d87eb41/httpx-0.23.1-py3-none-any.whl",
-                    "sha256": "0b9b1f0ee18b9978d637b0776bfd7f54e2ca278e063e3586d8f01cda89e042a8"
+                    "url": "https://files.pythonhosted.org/packages/ac/a2/0260c0f5d73bdf06e8d3fc1013a82b9f0633dc21750c9e3f3cb1dba7bb8c/httpx-0.23.3-py3-none-any.whl",
+                    "sha256": "a211fcce9b1254ea24f0cd6af9869b3d29aba40154e947d2a07bb499b3e310d6"
                 },
                 {
                     "type": "file",
@@ -142,8 +142,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/35/45/64f4abaa5b36b698aaeb556ae6dc533e57a6b9e72ac6fc7f0d7f9cb15bb4/nltk-3.8-py3-none-any.whl",
-                    "sha256": "3306502f487aa9fb0566e23443fa287a85a8d8d0821e2ef1655b4e3f0ea4aeee"
+                    "url": "https://files.pythonhosted.org/packages/a6/0a/0d20d2c0f16be91b9fa32a77b76c60f9baf6eba419e5ef5deca17af9c582/nltk-3.8.1-py3-none-any.whl",
+                    "sha256": "fd5c9109f976fa86bcadba8f91e47f5e9293bd034474752e92a520f81c93dda5"
                 },
                 {
                     "type": "file",
@@ -196,8 +196,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b6/7a/4f1067904adad79b5f3ba8c81f879975b56515764cb42e241cf3528cb017/yt_dlp-2022.11.11-py2.py3-none-any.whl",
-                    "sha256": "8bb7bd9ab2e6ecf4db7627e9151ce00572ae7ee24dedc78f611e7467b0ccd7d9"
+                    "url": "https://files.pythonhosted.org/packages/4f/82/2cf81d524309261c7d27ed15498eb9413d4d44100f270929de1784ec5db4/yt_dlp-2023.1.2-py2.py3-none-any.whl",
+                    "sha256": "37040bb0cda9f10168954eaf89f3d6e187106af81c11fded3c22ec0311194cd6"
                 }
             ]
         }
