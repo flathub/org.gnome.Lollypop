@@ -45,8 +45,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.20.6.tar.xz",
-                    "sha256": "ca3fb6abc9f6e981d204a736c254e50cc1786a2f5038d83023e42ea009b10246",
+                    "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.20.7.tar.xz",
+                    "sha256": "e761665bb3c66fb35ff3567a283b3763b494acf0fe1df8f4abeda047b22dbc55",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 15187,
@@ -132,8 +132,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/lollypop.git",
-                    "tag": "1.4.37",
-                    "commit": "847c7640b1e1b82170dd8bd81651d518e3446bd4",
+                    "tag": "1.4.38",
+                    "commit": "d8ae916f48e164e5c9c8d388e2f2a09668ecac88",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
