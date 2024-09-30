@@ -6,7 +6,7 @@ You can use proprietary codecs like [.wma](https://en.wikipedia.org/wiki/Windows
 To install the extension, run the following command:
 
 ```
-flatpak install flathub org.freedesktop.Platform.ffmpeg-full//22.08
+flatpak install flathub org.freedesktop.Platform.ffmpeg-full//23.08
 ```
 
 ## Platform support
