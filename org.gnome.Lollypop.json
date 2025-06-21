@@ -3,7 +3,6 @@
     "runtime": "org.gnome.Platform",
     "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
-    "sdk-version": "48",
     "command": "lollypop",
     "finish-args": [
         "--share=ipc",
