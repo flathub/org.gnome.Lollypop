@@ -1,14 +1,14 @@
 {
     "app-id": "org.gnome.Lollypop",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
     "command": "lollypop",
     "finish-args": [
         "--share=ipc",
         "--share=network",
-        "--socket=fallback-x11",
         "--socket=wayland",
+        "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--device=dri",
         "--filesystem=xdg-music",
@@ -25,7 +25,7 @@
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
             "directory": "lib/ffmpeg",
-            "version": "23.08",
+            "version": "24.08",
             "add-ld-path": ".",
             "autodelete": false
         }
