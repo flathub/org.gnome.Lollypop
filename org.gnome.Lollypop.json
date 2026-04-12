@@ -111,8 +111,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.6.tar.xz",
-                    "sha256": "c0df0f68d5cf9d7da43c81c7f13f11158358368f98c22d47722f3bd04bd3ac1c",
+                    "url": "https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.7.tar.xz",
+                    "sha256": "60d517c1acabe54ae337f64451264fc76730696eaae26b5480fb37166689b5f3",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 13163,
