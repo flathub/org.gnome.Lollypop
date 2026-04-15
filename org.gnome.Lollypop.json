@@ -22,75 +22,31 @@
         "--own-name=org.mpris.MediaPlayer2.Lollypop",
         "--metadata=X-DConf=migrate-path=/org/gnome/Lollypop/"
     ],
-    "add-extensions": {
-        "org.freedesktop.Platform.ffmpeg-full": {
-            "directory": "lib/ffmpeg",
-            "version": "24.08",
-            "add-ld-path": ".",
-            "autodelete": false
-        }
-    },
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/lib/python3.*/site-packages/*/test",
+        "/lib/python3.*/site-packages/*/tests",
+        "/share/bash-completion",
+        "/share/doc",
+        "/share/fish",
+        "/share/gir-1.0",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/vala",
+        "/share/zsh",
+        "*.la",
+        "*.a"
+    ],
     "cleanup-commands": [
-        "mkdir -p /app/lib/ffmpeg"
+        "python3 -m compileall --invalidation-mode=unchecked-hash /app"
     ],
     "modules": [
         "pypi-dependencies.json",
         {
-            "name": "gst-plugins-ugly",
-            "buildsystem": "meson",
-            "cleanup": [
-                "*.la",
-                "/share/gtk-doc"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.20.7.tar.xz",
-                    "sha256": "e761665bb3c66fb35ff3567a283b3763b494acf0fe1df8f4abeda047b22dbc55",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 15187,
-                        "stable-only": true,
-                        "versions": {
-                            "<": "1.21"
-                        },
-                        "url-template": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "gst-plugins-bad",
-            "buildsystem": "meson",
-            "cleanup": [
-                "*.la",
-                "/share/gtk-doc"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.20.7.tar.xz",
-                    "sha256": "87251beebfd1325e5118cc67774061f6e8971761ca65a9e5957919610080d195",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 21849,
-                        "stable-only": true,
-                        "versions": {
-                            "<": "1.21"
-                        },
-                        "url-template": "https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "gmime",
             "config-opts": [
                 "--disable-gtk-doc"
-            ],
-            "cleanup": [
-                "*.la",
-                "/share/gtk-doc"
             ],
             "sources": [
                 {
@@ -119,10 +75,6 @@
                         "url-template": "https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-$version.tar.xz"
                     }
                 }
-            ],
-            "cleanup": [
-                "/include",
-                "/share/gtk-doc"
             ]
         },
         {
