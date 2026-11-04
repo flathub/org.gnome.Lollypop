@@ -36,7 +36,7 @@
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 13124,
-                        "url-template": "https://download.gnome.org/sources/gmime/3.2/gmime-$version.tar.xz"
+                        "url-template": "https://github.com/jstedfast/gmime/releases/download/$version/gmime-$version.tar.xz"
                     }
                 }
             ]
